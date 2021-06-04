@@ -13,6 +13,7 @@ function App() {
           <p>Linked-in</p>
           <p>Github</p>
           <p>Resume</p>
+          <p>will auto deploy work?</p>
         </div>
       </div>
     </div>
