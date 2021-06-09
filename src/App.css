@@ -1,6 +1,7 @@
 .App {
   /* text-align: center; */
-  font-family:sans-serif
+  font-family:sans-serif;
+  background-color: black;
 }
 
 
@@ -66,8 +67,8 @@ link{
 
 .portfolio-container img:hover{
   cursor: pointer;
-  opacity: 0.8;  /* Opacity for Modern Browsers */
-  filter: alpha(opacity=80);  /* Opacity for IE8 and lower */
+  opacity: 0.5;  /* Opacity for Modern Browsers */
+  filter: alpha(opacity=50);  /* Opacity for IE8 and lower */
   zoom: 1;  /* Fix for IE7 */
   
 }
@@ -125,6 +126,7 @@ iframe {
   width: 120px;
   margin-top: 10px;
   border-radius: 5px;
+  border: 1px white solid;
 }
 
 
@@ -133,4 +135,8 @@ iframe {
   height: 500px;
   margin: auto;
   background-color: rgba(0, 0, 0, 0.173);
+}
+
+.portfolio-container img, .title img {
+  border: 1px white solid;
 }
