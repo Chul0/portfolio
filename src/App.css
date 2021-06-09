@@ -1,6 +1,6 @@
 .App {
   /* text-align: center; */
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family:sans-serif
 }
 
 
@@ -19,7 +19,7 @@ link{
 }
 
 
-header a {
+.navBar a {
   color: #FFF;
   text-decoration: none;
   margin: 10px;
@@ -56,7 +56,7 @@ header a {
   align-items: center;
   text-align: center;
   width: 1220px;
-  margin: 50px auto;
+  margin: 20px auto 0 ;
 }
 
 
@@ -83,7 +83,7 @@ header a {
   align-items: center;
   text-align: center;
   width: 1220px;
-  margin: 50px auto;
+  margin: auto;
 }
 .youtubeContainer{
   display: flex;
@@ -125,3 +125,9 @@ iframe {
 }
 
 
+.blank{
+  width: 1200px;
+  height: 500px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.173);
+}
