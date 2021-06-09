@@ -189,8 +189,11 @@ iframe{
   .navBar {
    height: 30px;
 }
+
 .myName {
   margin: 20px auto;
+  align-items: center;
+  text-align: center;
 }
 .name {
   font-size: 40px;
@@ -198,13 +201,17 @@ iframe{
 }
 .whoAmI {
   margin: 20px auto;
-}t
+}
+
 .intro {
   margin: 20px auto;
   width: 320px;
 }
+
 .socials {
   margin: 30px auto;
+  width: fit-content;
+  padding: auto;
 }
 
 .homeName{
@@ -218,12 +225,19 @@ iframe{
     display: flex;
     flex-direction: column;
     margin: 30px auto;
+    width: 100%
 }
 
 .youtubeContainer {
   display: flex;
   flex-direction: column;
   margin: auto;
+  align-items: center;
+  width: 500px;
+}
+
+.netflastinate, .covid, .fashun, .calorie{
+  width: 500px;
 }
 
 .title {
@@ -231,12 +245,13 @@ iframe{
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
 }
 
 iframe {
   width:385px;
   height:200px;
-  margin:auto auto 50px auto
+  margin: 50px auto;
 }
 
 .description{
