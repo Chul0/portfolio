@@ -66,9 +66,8 @@ link{
 
 .portfolio-container img:hover{
   cursor: pointer;
-  opacity: 0.5;  /* Opacity for Modern Browsers */
-  filter: alpha(opacity=50);  /* Opacity for IE8 and lower */
-  zoom: 1;  /* Fix for IE7 */
+  box-shadow: 0 0 5px 5px rgba(104, 104, 104, 0.5);
+  
 }
 
 .left {
