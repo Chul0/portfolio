@@ -174,19 +174,79 @@ iframe {
   border: 1px white solid;
 }
 
+iframe{
+  width:790px;
+  height:350px
+}
 
 @media screen and (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
   .navBar {
    height: 30px;
 }
 .myName {
-  margin: 20px 0;
+  margin: 20px auto;
 }
-  .name {
-  font-size: 50px;
+.name {
+  font-size: 40px;
   margin: 20px auto;
 }
 .whoAmI {
   margin: 20px auto;
+}t
+.intro {
+  margin: 20px auto;
+  width: 320px;
+}
+.socials {
+  margin: 30px auto;
+}
+
+.homeName{
+  display: none;
+}
+
+.navLink {
+  margin: 30px auto;
+}
+.portfolio-container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+}
+
+.youtubeContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.title {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+iframe {
+  width:385px;
+  height:200px;
+  margin:auto auto 50px auto
+}
+
+.description{
+  display: none;
+}
+
+.icon img {
+  width: 120px;
+  margin: 20px 5px 10px 5px;
+  border-radius: 5px;
+  border: 1px white solid;
 }
 }
