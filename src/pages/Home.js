@@ -4,7 +4,7 @@ const Home = () => {
             <div className="myName">
                 <p className="name">Sungchul Park</p>
                 <p className="whoAmI">Software Engineer</p>
-                <p className="whoAmI">Full-stack Developer</p>
+                <p className="whoAmI">Fullstack Developer</p>
                 <p className="intro">I am a creative software engineer, coming from over 4 years of professional experience in fashion</p>
                 <div className="socials">
                     <a href="https://www.linkedin.com/in/sungchul--park/"><img src="https://i.ibb.co/xYBwdDC/linkedin.jpg" style={{width:"65px"}}></img></a>
