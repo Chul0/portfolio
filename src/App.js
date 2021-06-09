@@ -1,21 +1,34 @@
 import './App.css';
 
+import { Route } from 'react-router-dom'
 import NavBar from './components/NavBar'
+import Portfolio from './pages/Portfolio';
+import Home from './pages/Home';
+
+
 function App() {
   return (
     <div className="App">
       <NavBar />
-      <div className="myName">
-        <h1 className="title">Sungchul Park</h1>
-        <h1 className="whoAmI">Software Engineer</h1>
-        <h1 className="whoAmI">Full-stack Developer</h1>
-        <div className="socials">
-          <p>Linked-in</p>
-          <p>Github</p>
-          <p>Resume</p>
-          <p>will auto deploy work?</p>
-        </div>
-      </div>
+
+
+
+      <Route 
+       path="/"
+       exact
+       render={()=>{
+         return <Home />
+       }}
+      />
+
+    <Route 
+      path='/portfolio'
+      exact
+      render={()=>{
+        return <Portfolio />
+      }}
+    />
+
     </div>
   );
 }

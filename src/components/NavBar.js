@@ -5,12 +5,12 @@ const NavBar = () => {
     return (
         <nav className="navBar">
             <div className="homeName">
-                sungchulpark
+                SUNGCHUL PARK
             </div>
             <div className="navLink">
-                <Link to="about">ABOUT</Link>{' | '}
-                <Link to="portfolio">PORTFOLIO</Link>{' | '}
-                <Link to="contact">CONTACT</Link>{' | '}
+                <Link to="about">ABOUT</Link>
+                <Link to="portfolio">PORTFOLIO</Link>
+                <Link to="contact">CONTACT</Link>
                 <Link to="/language">LANGUAGE</Link>
             </div>
         </nav>
