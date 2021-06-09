@@ -173,3 +173,20 @@ iframe {
 .portfolio-container img, .title img {
   border: 1px white solid;
 }
+
+
+@media screen and (max-width: 600px) {
+  .navBar {
+   height: 30px;
+}
+.myName {
+  margin: 20px 0;
+}
+  .name {
+  font-size: 50px;
+  margin: 20px auto;
+}
+.whoAmI {
+  margin: 20px auto;
+}
+}
