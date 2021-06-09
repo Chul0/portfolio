@@ -87,8 +87,8 @@ const Portfolio = () => {
                     <iframe src="https://www.youtube.com/embed/il_xlQ79nyk" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className="description">
-                    <p>Netflastinate is a movie trailer app where user can watch movie trailers, and save them to watch list.
-                    "Netflastinate" is a slang term used when you use Netflix to procrastinate.</p>
+                    <p>Netflastinate is a movie trailer app where the user can watch movie trailers and save them in their watch-list.
+                    "Netflastinate" – (slang) using Netflix to procrastinate</p>
                 </div>
             </div>
             )}          
@@ -114,7 +114,7 @@ const Portfolio = () => {
                     <iframe src="https://www.youtube.com/embed/7l0plZNASC4" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className="description">
-                <p>Beat COVID: user kills coronavirus by clicking viruses.</p>
+                <p>Beat COVID! The user kills the COVID-19 virus with a sanitizing click.</p>
                 </div>
             </div>
         )}    
@@ -141,7 +141,7 @@ const Portfolio = () => {
                     <iframe src="https://www.youtube.com/embed/aTrz__8UJ5I" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className="description">
-                <p>Fash-un app is a fashion show coverage where you can explore runway shows, and create mood boards to save inspiring looks.</p>
+                <p>Fash-un – fashion show coverage with expandable runway shows with the ability for users to create mood boards, saving their most inspiring looks.</p>
                 </div>
             </div>
                 )}
@@ -167,7 +167,7 @@ const Portfolio = () => {
                     <iframe src="https://www.youtube.com/embed/QSRl5Km5r1o" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
                 <div className="description">
-                    <p>Calorie tracker is a nutrition app that helps users to keep track of their daily calorie intake.</p>
+                    <p>Calorie tracker is a nutrition app that helps users keep track of their daily caloric intake.</p>
                 </div>
             </div>
         )}
