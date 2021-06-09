@@ -19,15 +19,15 @@ link{
 }
 
 
-a {
+header a {
   color: #FFF;
   text-decoration: none;
   margin: 10px;
 }
 
-a:hover {
+/* a:hover {
   font-weight: bold;
-}
+} */
 
 .homeName, .navLink {
  margin: 10px;
@@ -35,8 +35,6 @@ a:hover {
 }
 
 .title {
-  font-family: 'Limelight', cursive;
-  font-family: 'Sigmar One', cursive;
   font-size: 50px;
   margin: 30px;
 }
@@ -56,8 +54,11 @@ a:hover {
 .portfolio-container{
   display: flex;
   align-items: center;
-  width: 1000px;
+  text-align: center;
+  width: 1220px;
+  margin: 50px auto;
 }
+
 
 .portfolio-container img{
   margin: 10px;
@@ -69,10 +70,58 @@ a:hover {
 }
 
 .left {
-  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+
+.netflastinate, .covid, .fashun, .calorie{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 1220px;
+  margin: 50px auto;
+}
+.youtubeContainer{
+  display: flex;
+  width: 1220px;
+}
+
+iframe {
+  margin: 10px;
+}
+
+.links {
+  display: flex;
+}
+
+/* .links a {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  padding: 5px;
+} */
+
+.title {
+  margin: 10px;
   display: flex;
   flex-direction: column;
 }
 
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.icon img {
+  width: 120px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
 
 
