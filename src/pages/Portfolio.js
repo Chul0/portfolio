@@ -45,23 +45,17 @@ const Portfolio = () => {
 
         <div className="left">
                 <img src="https://i.ibb.co/pWs82w7/netflastinat.png" 
-                    style={{width:"385px", height:"100px"}}
                     onClick={netflModal} 
                 />
                 <img src="https://i.ibb.co/vsk4hbr/covid.png"
-                     style={{width:"385px", height:"100px"}} 
+ 
                      onClick={covidModal}/>
             </div>
 
-            <div className="center">
-                <img src="https://i.ibb.co/61mSyWk/fashun.png"
-                     style={{width:"385px" ,height:"220px"}} 
-                     onClick={fashunModal}/>
-            </div>
-
             <div className="right">
-                <img src="https://i.ibb.co/8gKq5P9/calorie.png"
-                     style={{width:"385px", height:"220px"}} 
+                <img src="https://i.ibb.co/4WnNrFf/fashun.png" 
+                     onClick={fashunModal}/>
+                <img src="https://i.ibb.co/JvKT9JT/calorie.png"
                      onClick={caloriModal}/>
             </div>
         </div>
@@ -70,8 +64,7 @@ const Portfolio = () => {
             <div className="netflastinate" >
                 <div className="youtubeContainer">
                     <div className="title">
-                        <img src="https://i.ibb.co/pWs82w7/netflastinat.png" 
-                            style={{width:"385px", height:"220px"}} />
+                        <img src="https://i.ibb.co/pWs82w7/netflastinat.png" />
                         <div className="icon">
                             <a href="https://github.com/Chul0/Netflastinate-frontend">
                                 <img src="https://i.ibb.co/0jrq4X8/fe.jpg"/>
@@ -97,8 +90,7 @@ const Portfolio = () => {
             <div className="covid">
                  <div className="youtubeContainer">
                     <div className="title">
-                        <img src="https://i.ibb.co/vsk4hbr/covid.png" 
-                            style={{width:"385px", height:"220px"}} />
+                        <img src="https://i.ibb.co/vsk4hbr/covid.png" />
                         <div className="icon">
                             <a href="https://github.com/Chul0/beat-covid">
                                 <img src="https://i.ibb.co/0jrq4X8/fe.jpg"/>
@@ -124,8 +116,7 @@ const Portfolio = () => {
            className="fashun">
                 <div className="youtubeContainer">
                     <div className="title">
-                        <img src="https://i.ibb.co/MRNjds9/Screen-Shot-2021-06-08-at-9-30-02-PM.png" 
-                            style={{width:"385px", height:"220px"}} />
+                        <img src="https://i.ibb.co/4WnNrFf/fashun.png" />
                         <div className="icon">
                             <a href="https://github.com/Chul0/fash-un-frontend">
                                 <img src="https://i.ibb.co/0jrq4X8/fe.jpg"/>
@@ -150,8 +141,7 @@ const Portfolio = () => {
             <div className="calorie">
                  <div className="youtubeContainer">
                     <div className="title">
-                        <img src="https://i.ibb.co/brcBcWN/calorie-2.png" 
-                            style={{width:"385px", height:"220px"}} />
+                        <img src="https://i.ibb.co/JvKT9JT/calorie.png" />
                         <div className="icon">
                             <a href="https://github.com/Chul0/Calorie-Tracker-FE">
                                 <img src="https://i.ibb.co/0jrq4X8/fe.jpg"/>

@@ -3,7 +3,7 @@
   font-family:sans-serif;
   background-color: black;
   color: #FFF;
-  font-family: 'Mate SC', serif;
+  font-family: serif;
 }
 
 
@@ -83,7 +83,7 @@ link{
   display: flex;
   align-items: center;
   text-align: center;
-  width: 1220px;
+  width: 1120px;
   margin: 20px auto 0 ;
 }
 
@@ -100,11 +100,16 @@ link{
   
 }
 
-.left {
+.left, .right {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0;
+}
+
+.left img, .right img{
+  width:538px;
+  height:100px;
 }
 
 
@@ -113,12 +118,12 @@ link{
   flex-direction: column;
   align-items: center;
   text-align: center;
-  width: 1220px;
+  width: 1120px;
   margin: auto;
 }
 .youtubeContainer{
   display: flex;
-  width: 1220px;
+  width: 1120px;
 }
 
 iframe {
@@ -175,7 +180,7 @@ iframe {
 }
 
 iframe{
-  width:790px;
+  width:700px;
   height:350px
 }
 
@@ -194,6 +199,7 @@ iframe{
   margin: 20px auto;
   align-items: center;
   text-align: center;
+  width: 300px;
 }
 .name {
   font-size: 40px;
@@ -225,7 +231,12 @@ iframe{
     display: flex;
     flex-direction: column;
     margin: 30px auto;
-    width: 100%
+    width: 300px;
+}
+
+.left img, .right img{
+  width: 300px;
+  height: 100px;
 }
 
 .youtubeContainer {
@@ -247,11 +258,17 @@ iframe{
   align-items: center;
   width: 100%;
 }
+.title img{
+  width:300px;
+  height: 150px;
+}
+
+
 
 iframe {
-  width:385px;
+  width:300px;
   height:200px;
-  margin: 50px auto;
+  margin: auto auto 50px auto;
 }
 
 .description{
@@ -259,7 +276,8 @@ iframe {
 }
 
 .icon img {
-  width: 120px;
+  width: 90px;
+  height: 90px;
   margin: 20px 5px 10px 5px;
   border-radius: 5px;
   border: 1px white solid;
