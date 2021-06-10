@@ -55,7 +55,7 @@ const Portfolio = () => {
             <div className="right">
                 <img src="https://i.ibb.co/4WnNrFf/fashun.png" 
                      onClick={fashunModal}/>
-                <img src="https://i.ibb.co/JvKT9JT/calorie.png"
+                <img src="https://i.ibb.co/YtYQhc7/calorie.png"
                      onClick={caloriModal}/>
             </div>
         </div>
@@ -141,7 +141,7 @@ const Portfolio = () => {
             <div className="calorie">
                  <div className="youtubeContainer">
                     <div className="title">
-                        <img src="https://i.ibb.co/JvKT9JT/calorie.png" />
+                        <img src="https://i.ibb.co/YtYQhc7/calorie.png" />
                         <div className="icon">
                             <a href="https://github.com/Chul0/Calorie-Tracker-FE">
                                 <img src="https://i.ibb.co/0jrq4X8/fe.jpg"/>
