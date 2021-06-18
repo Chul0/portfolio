@@ -66,13 +66,13 @@ const Portfolio = () => {
                     <div className="title">
                         <img src="https://i.ibb.co/pWs82w7/netflastinat.png" />
                         <div className="icon">
-                            <a href="https://github.com/Chul0/Netflastinate-frontend">
+                            <a href="https://github.com/Chul0/Netflastinate-frontend" target="_blank">
                                 <img src="https://i.ibb.co/0jrq4X8/fe.jpg"/>
                             </a>
-                            <a href="https://github.com/Chul0/Netflastinate-backend">
+                            <a href="https://github.com/Chul0/Netflastinate-backend" target="_blank">
                                 <img src="https://i.ibb.co/B6KDNWd/be.jpg"/>
                             </a>
-                            <a href="https://netflastinate.herokuapp.com/">
+                            <a href="https://netflastinate.herokuapp.com/" target="_blank">
                                 <img src="https://i.ibb.co/N15ypqp/hp.jpg"/>
                             </a>
                         </div>
@@ -93,13 +93,13 @@ const Portfolio = () => {
                     <div className="title">
                         <img src="https://i.ibb.co/vsk4hbr/covid.png" />
                         <div className="icon">
-                            <a href="https://github.com/Chul0/beat-covid">
+                            <a href="https://github.com/Chul0/beat-covid" target="_blank">
                                 <img src="https://i.ibb.co/0jrq4X8/fe.jpg"/>
                             </a>
-                            <a href="https://github.com/Chul0/beat-covid">
+                            <a href="https://github.com/Chul0/beat-covid" target="_blank">
                                 <img src="https://i.ibb.co/B6KDNWd/be.jpg"/>
                             </a>
-                            <a href="https://chul0.github.io/beat-covid/">
+                            <a href="https://chul0.github.io/beat-covid/" target="_blank">
                                 <img src="https://i.ibb.co/N15ypqp/hp.jpg"/>
                             </a>
                         </div>
@@ -120,13 +120,13 @@ const Portfolio = () => {
                     <div className="title">
                         <img src="https://i.ibb.co/4WnNrFf/fashun.png" />
                         <div className="icon">
-                            <a href="https://github.com/Chul0/fash-un-frontend">
+                            <a href="https://github.com/Chul0/fash-un-frontend" target="_blank">
                                 <img src="https://i.ibb.co/0jrq4X8/fe.jpg"/>
                             </a>
-                            <a href="https://github.com/Chul0/fash-un-backend">
+                            <a href="https://github.com/Chul0/fash-un-backend" target="_blank">
                                 <img src="https://i.ibb.co/B6KDNWd/be.jpg"/>
                             </a>
-                            <a href="https://fash-un-frontend.herokuapp.com/">
+                            <a href="https://fash-un-frontend.herokuapp.com/" target="_blank">
                                 <img src="https://i.ibb.co/N15ypqp/hp.jpg"/>
                             </a>
                         </div>
@@ -146,13 +146,13 @@ const Portfolio = () => {
                     <div className="title">
                         <img src="https://i.ibb.co/YtYQhc7/calorie.png" />
                         <div className="icon">
-                            <a href="https://github.com/Chul0/Calorie-Tracker-FE">
+                            <a href="https://github.com/Chul0/Calorie-Tracker-FE" target="_blank">
                                 <img src="https://i.ibb.co/0jrq4X8/fe.jpg"/>
                             </a>
-                            <a href="https://github.com/Chul0/Calorie-Tracker-BE">
+                            <a href="https://github.com/Chul0/Calorie-Tracker-BE" target="_blank">
                                 <img src="https://i.ibb.co/B6KDNWd/be.jpg"/>
                             </a>
-                            <a href="https://chul-calorie-tracke-fe.herokuapp.com/">
+                            <a href="https://chul-calorie-tracke-fe.herokuapp.com/" target="_blank">
                                 <img src="https://i.ibb.co/N15ypqp/hp.jpg"/>
                             </a>
                         </div>
