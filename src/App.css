@@ -40,7 +40,7 @@ link{
   display: flex;
 }
 .myName {
-  margin: 70px 0;
+  margin: 0;
   background-color: black;
   color: white;
   height: 500px;
@@ -79,12 +79,18 @@ link{
   border-radius: 5px;
 }
 
+.socials a:hover{
+  cursor: pointer;
+  opacity: 0.5;  /* Opacity for Modern Browsers */
+  filter: alpha(opacity=50);  /* Opacity for IE8 and lower */
+  zoom: 1;  /* Fix for IE7 */
+}
 .portfolio-container{
   display: flex;
   align-items: center;
   text-align: center;
   width: 1120px;
-  margin: 20px auto 0 ;
+  margin: 50px auto 0 ;
 }
 
 
@@ -97,7 +103,6 @@ link{
   opacity: 0.5;  /* Opacity for Modern Browsers */
   filter: alpha(opacity=50);  /* Opacity for IE8 and lower */
   zoom: 1;  /* Fix for IE7 */
-  
 }
 
 .left, .right {
@@ -200,7 +205,7 @@ iframe{
 }
 
 .myName {
-  margin: 20px auto;
+  margin: 50px auto;
   align-items: center;
   text-align: center;
   width: 300px;
@@ -223,6 +228,7 @@ iframe{
   width: fit-content;
   padding: auto;
 }
+
 
 .homeName{
   display: none;
