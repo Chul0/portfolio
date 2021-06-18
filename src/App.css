@@ -215,6 +215,10 @@ iframe{
   height:330px
 }
 
+.skillUsed{
+  font-weight: bold;
+}
+
 @media screen and (max-width: 600px) {
   body {
     display: flex;
@@ -332,4 +336,12 @@ iframe {
   border-radius: 5px;
   border: 1px white solid;
 }
+
+.skillUsed {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 }

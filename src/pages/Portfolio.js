@@ -79,9 +79,10 @@ const Portfolio = () => {
                     </div>
                     <iframe src="https://www.youtube.com/embed/il_xlQ79nyk" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div className="description">
-                    <p>Netflastinate is a movie trailer app where the user can watch movie trailers and save them in their watch-list.
+                <div>
+                    <p className="description">Netflastinate is a movie trailer app where the user can watch movie trailers and save them in their watch-list.
                     "Netflastinate" – (slang) using Netflix to procrastinate</p>
+                    <p className="skillUsed">React.js, Express, Node.js, Sequelize, PostgreSQL, CSS, HTML </p>
                 </div>
             </div>
             )}          
@@ -105,8 +106,9 @@ const Portfolio = () => {
                     </div>
                     <iframe src="https://www.youtube.com/embed/7l0plZNASC4" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div className="description">
-                <p>Beat COVID! The user kills the COVID-19 virus with a sanitizing click.</p>
+                <div>
+                <p className="description">Beat COVID! The user kills the COVID-19 virus with a sanitizing click.</p>
+                <p className="skillUsed">Javascript, CSS, HTML </p>
                 </div>
             </div>
         )}    
@@ -131,8 +133,9 @@ const Portfolio = () => {
                     </div>
                     <iframe src="https://www.youtube.com/embed/aTrz__8UJ5I" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div className="description">
-                <p>Fash-un – fashion show coverage with expandable runway shows with the ability for users to create mood boards, saving their most inspiring looks.</p>
+                <div>
+                <p className="description">Fash-un – fashion show coverage with expandable runway shows with the ability for users to create mood boards, saving their most inspiring looks.</p>
+                <p className="skillUsed">React.js, Express, Node.js, Sequelize, PostgreSQL, CSS, HTML </p>
                 </div>
             </div>
                 )}
@@ -156,8 +159,9 @@ const Portfolio = () => {
                     </div>
                     <iframe src="https://www.youtube.com/embed/QSRl5Km5r1o" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <div className="description">
-                    <p>Calorie tracker is a nutrition app that helps users keep track of their daily caloric intake.</p>
+                <div>
+                    <p className="description">Calorie tracker is a nutrition app that helps users keep track of their daily caloric intake.</p>
+                    <p className="skillUsed">Javascript, RESTful API, Express, Node.js, Sequelize, PostgreSQL, CSS3, HTML5 </p>
                 </div>
             </div>
         )}
