@@ -14,6 +14,18 @@ const Home = () => {
                     <a href="mailto:sungchulpark0@gmail.com" target="_blank"><img src="https://i.ibb.co/C12sxdX/email.jpg" style={{width:"65px"}}></img></a>
                     <a href={resume} target="_blank"><img src="https://i.ibb.co/XDWz82p/resume.jpg" style={{width:"65px"}}></img></a>
                 </div>
+                <p className="language">Tech Stack</p>
+                <div className="techStack">
+                <i class="devicon-html5-plain-wordmark colored"></i>  
+                <i class="devicon-css3-plain-wordmark colored"></i>  
+                <i class="devicon-javascript-plain colored"></i>
+                <i class="devicon-react-original-wordmark colored"></i>
+                <i class="devicon-python-plain-wordmark colored"></i>
+                <i class="devicon-express-original"></i>
+                <i class="devicon-nodejs-plain-wordmark colored"></i>
+                <i class="devicon-sequelize-plain-wordmark"></i>
+                <i class="devicon-postgresql-plain-wordmark colored"></i>
+                </div>
             </div>
         </div>
     )

@@ -85,6 +85,28 @@ link{
   filter: alpha(opacity=50);  /* Opacity for IE8 and lower */
   zoom: 1;  /* Fix for IE7 */
 }
+
+.techStack{
+  margin: 20px 0 0 100px;
+  display:flex;
+  width: 240px;
+  border-radius: 5px;
+  font-size: 62px;
+}
+
+.techStack i{
+  border:1px solid rgb(96, 94, 94);
+  margin-left: 2px;
+  border-radius: 5px;
+  padding:3px;
+}
+
+.language {
+  margin: 30px 30px 0 100px;
+  font-weight: 300;
+  font-size: 20px;
+ }
+
 .portfolio-container{
   display: flex;
   align-items: center;
@@ -217,6 +239,9 @@ iframe{
 .whoAmI {
   margin: 20px auto;
 }
+.language {
+  margin: 10px auto;
+}
 
 .intro {
   margin: 20px auto;
@@ -229,6 +254,21 @@ iframe{
   padding: auto;
 }
 
+.techStack{
+  margin: 20px auto;
+  display:flex;
+  flex-wrap: wrap;
+  width: 230px;
+  border-radius: 5px;
+  font-size: 62px;
+}
+
+.techStack i{
+  border:1px solid rgb(96, 94, 94);
+  margin-left: 2px;
+  border-radius: 5px;
+  padding:3px;
+}
 
 .homeName{
   display: none;
