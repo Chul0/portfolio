@@ -27,9 +27,7 @@ link{
   margin: 10px;
 }
 
-/* a:hover {
-  font-weight: bold;
-} */
+
 
 .homeName, .navLink {
  margin: 30px;
@@ -139,7 +137,7 @@ link{
   width:538px;
   height:100px;
   object-fit: contain;
-  
+  margin: 10px 20px 20px 10px;
 }
 
 
@@ -154,6 +152,7 @@ link{
 .youtubeContainer{
   display: flex;
   width: 1120px;
+  margin-top: 50px;
 }
 
 iframe {
@@ -162,48 +161,6 @@ iframe {
 
 .links {
   display: flex;
-}
-
-/* .links a {
-  display: flex;
-  flex-direction: column;
-  border: 1px solid black;
-  padding: 5px;
-} */
-
-.title {
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-}
-
-.title img{
-  width: 385px;
-  object-fit: contain;
-}
-
-.icon {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0;
-}
-
-.icon img {
-  width: 120px;
-  margin-top: 20px;
-  border-radius: 5px;
-  border: 1px white solid;
-}
-
-.icon img:hover{
-  opacity: 0.5; 
-  filter: alpha(opacity=50); 
-  zoom: 1;  
-}
-
-.description{
-  font-size: 20px;
 }
 
 
@@ -219,14 +176,46 @@ iframe {
 }
 
 iframe{
-  width:700px;
-  height:330px
+  width:555px;
+  height:330px;
 }
 
+.appDetail{
+  /* border: 1px solid white; */
+  width: 540px;
+  height: 330px;
+  text-align: left;
+  margin: 0 10px 0 30px;
+}
+.appName{
+  margin-top: 20px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.description{
+  font-size: 20px;
+}
 .skillUsed{
   font-weight: bold;
   font-size: 20px;
+  margin-top: 30px;
 }
+
+.sources{
+  display: flex;
+  /* flex-direction: column; */
+  font-size: 22px;
+}
+
+.sources a{
+  color: rgb(252, 223, 6);
+  text-decoration:underline;
+  margin: 30px 15px 0 0;
+  width:fit-content;
+  font-weight: bold;
+}
+
 
 @media screen and (max-width: 600px) {
   body {
