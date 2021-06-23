@@ -1,4 +1,8 @@
 import { useState } from 'react'
+import netflastinateLogo from '../images/netflastinate.png'
+import covidLogo from '../images/covid.png'
+import fashunLogo from '../images/fashun.png'
+import calorieLogo from '../images/calorie.png'
 
 
 const Portfolio = () => {
@@ -44,18 +48,17 @@ const Portfolio = () => {
         <div className="portfolio-container">
 
         <div className="left">
-                <img src="https://i.ibb.co/pWs82w7/netflastinat.png" 
-                    onClick={netflModal} 
+                <img src={netflastinateLogo} 
+                     onClick={netflModal} 
                 />
-                <img src="https://i.ibb.co/vsk4hbr/covid.png"
- 
+                <img src={covidLogo}
                      onClick={covidModal}/>
             </div>
 
             <div className="right">
-                <img src="https://i.ibb.co/4WnNrFf/fashun.png" 
+                <img src={fashunLogo} 
                      onClick={fashunModal}/>
-                <img src="https://i.ibb.co/YtYQhc7/calorie.png"
+                <img src={calorieLogo}
                      onClick={caloriModal}/>
             </div>
         </div>

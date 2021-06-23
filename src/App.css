@@ -137,6 +137,8 @@ link{
 .left img, .right img{
   width:538px;
   height:100px;
+  object-fit: contain;
+  
 }
 
 
@@ -176,6 +178,7 @@ iframe {
 
 .title img{
   width: 385px;
+  object-fit: contain;
 }
 
 .icon {
