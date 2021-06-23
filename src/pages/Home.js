@@ -9,10 +9,10 @@ const Home = () => {
                 <p className="whoAmI">Fullstack Developer</p>
                 <p className="intro">I am a creative software engineer, coming from over 4 years of professional experience in fashion</p>
                 <div className="socials">
-                    <a href="https://www.linkedin.com/in/sungchul--park/" target="_blank"><img src="https://i.ibb.co/xYBwdDC/linkedin.jpg" style={{width:"65px"}}></img></a>
-                    <a href="https://github.com/Chul0" target="_blank"><img src="https://i.ibb.co/cJQfz6S/git.jpg" style={{width:"65px"}}></img></a>
-                    <a href="mailto:sungchulpark0@gmail.com" target="_blank"><img src="https://i.ibb.co/C12sxdX/email.jpg" style={{width:"65px"}}></img></a>
-                    <a href={resume} target="_blank"><img src="https://i.ibb.co/XDWz82p/resume.jpg" style={{width:"65px"}}></img></a>
+                    <a href="https://www.linkedin.com/in/sungchul--park/" target="_blank"><img src="https://i.ibb.co/xYBwdDC/linkedin.jpg"></img></a>
+                    <a href="https://github.com/Chul0" target="_blank"><img src="https://i.ibb.co/cJQfz6S/git.jpg"></img></a>
+                    <a href="mailto:sungchulpark0@gmail.com" target="_blank"><img src="https://i.ibb.co/C12sxdX/email.jpg"></img></a>
+                    <a href={resume} target="_blank"><img src="https://i.ibb.co/XDWz82p/resume.jpg"></img></a>
                 </div>
                 <p className="language">Tech Stack</p>
                 <div className="techStack">
