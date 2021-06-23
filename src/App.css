@@ -220,7 +220,7 @@ iframe{
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 540px) {
   body {
     display: flex;
     flex-direction: column;
@@ -235,7 +235,7 @@ iframe{
   margin: 50px auto;
   align-items: center;
   text-align: center;
-  width: 300px;
+  width: fit-content;
 }
 .name {
   font-size: 40px;
@@ -259,11 +259,18 @@ iframe{
   padding: auto;
 }
 
+.socials img{
+  width: 53px;
+  margin: 0 10px 0 10px;
+}
+
 .techStack{
-  margin: 20px auto;
+  margin: 10px auto;
   display:flex;
   flex-wrap: wrap;
-  width: 340px;
+  align-items: center;
+  text-align: center;
+  width: 295px;
   border-radius: 5px;
   font-size: 62px;
 }
@@ -353,4 +360,46 @@ iframe {
   display: none;
 }
 
+}
+
+@media screen and (min-width: 540px) and (max-width: 900px) {
+.techStack {
+    margin: 20px 0 0 100px;
+    display: flex;
+    border-radius: 5px;
+    font-size: 62px;
+}
+
+i {
+  font-size: 50px;
+  margin: 12px 12px 12px 0
+}
+
+.socials img {
+  margin: 0 15px 0 5px;
+  border-radius: 5px;
+  width: 55px;
+}
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30px auto;
+  width: fit-content;
+}
+
+.youtubeContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  width: fit-content;
+  align-items: center;
+  margin:0;
+}
+
+.fashun, .netflastinate, .calorie, .covid {
+  width: fit-content;
+}
+
+.appDetail {
+  margin-bottom: 30px;
+}
 }
