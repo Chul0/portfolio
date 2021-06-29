@@ -1,4 +1,4 @@
-import resume from '../images/Sungchul_Park_Resume.pdf'
+// import resume from '../images/Sungchul_Park_Resume.pdf'
 
 const Home = () => {
     return(
@@ -12,7 +12,7 @@ const Home = () => {
                     <a href="https://www.linkedin.com/in/sungchul--park/" target="_blank"><img src="https://i.ibb.co/xYBwdDC/linkedin.jpg"></img></a>
                     <a href="https://github.com/Chul0" target="_blank"><img src="https://i.ibb.co/cJQfz6S/git.jpg"></img></a>
                     <a href="mailto:sungchulpark0@gmail.com" target="_blank"><img src="https://i.ibb.co/C12sxdX/email.jpg"></img></a>
-                    <a href={resume} target="_blank"><img src="https://i.ibb.co/XDWz82p/resume.jpg"></img></a>
+                    {/* <a href={resume} target="_blank"><img src="https://i.ibb.co/XDWz82p/resume.jpg"></img></a> */}
                 </div>
                 <p className="language">Tech Stack</p>
                 <div className="techStack">
