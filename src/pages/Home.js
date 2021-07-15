@@ -1,4 +1,4 @@
-// import resume from '../images/Sungchul_Park_Resume.pdf'
+// import resume from '../images/Sungchul_Park_Resume.pdf'b
 
 const Home = () => {
     return(

@@ -80,7 +80,7 @@ const Portfolio = () => {
                             </a>
                         </div>
                     </div>
-                    <iframe src="https://www.youtube.com/embed/il_xlQ79nyk" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/il_xlQ79nyk" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen"></iframe>
                 <div className="appDetail">
                     <p className="appName">Netflastinate </p>
                     <p className="description">Netflastinate is a movie trailer app where the user can watch movie trailers and save them in their watch-list.
@@ -116,7 +116,7 @@ const Portfolio = () => {
                             </a>
                         </div>
                     </div>
-                    <iframe src="https://www.youtube.com/embed/7l0plZNASC4" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/7l0plZNASC4" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen"></iframe>
                     <div className="appDetail">
                         <p className="appName">Beat COVID!</p>
                         <p className="description">Beat COVID! The user kills the COVID-19 virus with a sanitizing click.</p>
@@ -152,7 +152,7 @@ const Portfolio = () => {
                             </a>
                         </div>
                     </div>
-                    <iframe src="https://www.youtube.com/embed/aTrz__8UJ5I" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/aTrz__8UJ5I" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen"></iframe>
                     <div className="appDetail">
                     <p className="appName">Fash-un </p>
                     <p className="description">Fashion show coverage with expandable runway shows with the ability for users to create mood boards, saving their most inspiring looks.</p>
@@ -187,7 +187,7 @@ const Portfolio = () => {
                             </a>
                         </div>
                     </div>
-                    <iframe src="https://www.youtube.com/embed/QSRl5Km5r1o" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/QSRl5Km5r1o" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen"></iframe>
                     <div className="appDetail">
                     <p className="appName">Calorie tracker </p>
                     <p className="description">Calorie tracker is a nutrition app that helps users keep track of their daily caloric intake.</p>
