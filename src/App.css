@@ -43,7 +43,7 @@ link{
   margin: auto;
   background-color: black;
   color: white;
-  width:1120px;
+  width: 1167px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -153,15 +153,15 @@ link{
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* width: 52%; */
+  width: 100%;
   margin: auto auto 30px auto;
-  padding-bottom: 90px;
+  padding: 90px auto;
   border-bottom: 8px solid #222;
 }
 .youtubeContainer{
   display: flex;
-  width: 1120px;
-  margin-top: 50px;
+  width: fit-content;
+  margin: 50px auto;
 }
 
 iframe {
@@ -226,7 +226,7 @@ iframe{
 .sources{
   display: flex;
   /* flex-direction: column; */
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .sources a{
