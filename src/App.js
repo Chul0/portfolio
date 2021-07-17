@@ -16,16 +16,12 @@ function App() {
        exact
        render={()=>{
          return <Home />
+         
        }}
       />
 
-    <Route 
-      path='/portfolio'
-      exact
-      render={()=>{
-        return <Portfolio />
-      }}
-    />
+    <Portfolio />
+    
 
     </div>
   );
