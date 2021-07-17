@@ -9,8 +9,8 @@ const NavBar = () => {
                 <Link to="/"><img src={homeLogo} style={{width:"30px"}} /></Link>
             </div>
             <div className="navLink">
-                <Link to="/">About</Link>
-                <Link to="portfolio">Portfolio</Link>
+                {/* <Link to="/">About</Link>
+                <Link to="portfolio">Portfolio</Link> */}
                 {/* <Link to="contact">CONTACT</Link>
                 <Link to="/language">LANGUAGE</Link> */}
             </div>
