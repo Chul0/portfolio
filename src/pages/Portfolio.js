@@ -117,7 +117,7 @@ const Portfolio = () => {
                             </a>
                         </div>
                     </div>
-                    <iframe src="https://www.youtube.com/embed/7l0plZNASC4" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/7l0plZNASC4" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen"></iframe>
                     <div className="appDetail">
                         <p className="appName">Beat COVID!</p>
                         <p className="description">Beat COVID! The user kills the COVID-19 virus with a sanitizing click.</p>
@@ -188,7 +188,7 @@ const Portfolio = () => {
                             </a>
                         </div>
                     </div>
-                    <iframe src="https://www.youtube.com/embed/QSRl5Km5r1o" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <iframe src="https://www.youtube.com/embed/QSRl5Km5r1o" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen"></iframe>
                     <div className="appDetail">
                     <p className="appName">Calorie tracker </p>
                     <p className="description">Calorie tracker is a nutrition app that helps users keep track of their daily caloric intake.</p>
