@@ -158,6 +158,9 @@ link{
   padding: 90px auto;
   border-bottom: 8px solid #222;
 }
+
+
+
 .youtubeContainer{
   display: flex;
   width: fit-content;
@@ -196,9 +199,18 @@ iframe{
 .netflastinate .appDetail, .fashun .appDetail{
   /* border: 1px solid white; */
   width: 540px;
-  height: 330px;
+  height: fit-content;
   text-align: left;
   padding-right: 48px;
+}
+
+.thumbnailContainer{
+  display: flex;
+}
+.thumbnails{
+  width: 600px;
+  border: 1px solid rgb(194, 193, 193);
+  margin: 100px 20px auto auto;
 }
 
 .covid .appDetail, .calorie .appDetail{

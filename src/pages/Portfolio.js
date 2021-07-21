@@ -3,6 +3,8 @@ import netflastinateLogo from '../images/netflastinate.png'
 import covidLogo from '../images/covid.png'
 import fashunLogo from '../images/fashun.png'
 import calorieLogo from '../images/calorie.png'
+import netThumbnail from '../Thumbnails/netThumbnail.png'
+import netThumbnail2 from '../Thumbnails/netThumbnail2.png'
 
 
 const Portfolio = () => {
@@ -93,6 +95,10 @@ const Portfolio = () => {
                             </a>
                             <a href="https://netflastinate.herokuapp.com/" target="_blank">Live Webpage
                             </a>
+                        </div>
+                        <div className="thumbnailContainer">
+                            <img className="thumbnails" src={netThumbnail} />
+                            <img className="thumbnails" src={netThumbnail2} />
                         </div>
                     </div>
                     <iframe src="https://www.youtube.com/embed/il_xlQ79nyk?autoplay=1&playlist=il_xlQ79nyk&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" ></iframe>
