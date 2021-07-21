@@ -1,8 +1,8 @@
 import { useState } from 'react'
-import netflastinateLogo from '../images/netflastinate.png'
-import covidLogo from '../images/covid.png'
-import fashunLogo from '../images/fashun.png'
-import calorieLogo from '../images/calorie.png'
+// import netflastinateLogo from '../images/netflastinate.png'
+// import covidLogo from '../images/covid.png'
+// import fashunLogo from '../images/fashun.png'
+// import calorieLogo from '../images/calorie.png'
 import netThumbnail from '../Thumbnails/netThumbnail.png'
 import netThumbnail2 from '../Thumbnails/netThumbnail2.png'
 
