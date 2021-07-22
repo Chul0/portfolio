@@ -1,5 +1,6 @@
 import './App.css';
 
+
 import { Route } from 'react-router-dom'
 import NavBar from './components/NavBar'
 import Portfolio from './pages/Portfolio';
@@ -21,7 +22,7 @@ function App() {
       />
 
     <Portfolio />
-    
+    <p id='hi'>hi </p>
 
     </div>
   );
