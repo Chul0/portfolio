@@ -198,7 +198,7 @@ iframe{
 
 .netflastinate .appDetail, .fashun .appDetail{
   /* border: 1px solid white; */
-  width: 540px;
+  width: 700px;
   height: fit-content;
   text-align: left;
   padding-right: 48px;
@@ -207,14 +207,33 @@ iframe{
 .thumbnailContainer{
   display: flex;
 }
+
+
 .thumbnails{
-  width: 600px;
+  width: 300px;
   border: 1px solid rgb(194, 193, 193);
   margin: 100px 20px auto auto;
+  object-fit: contain;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;/* Firefox */
+  image-rendering: -o-crisp-edges; /* Opera */
+  image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming)*/
+  -ms-interpolation-mode: nearest-neighbor;/* IE (non-standard property) */
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+}
+
+.thumbnails:hover{
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none; 
+  transform: scale(3);
+  transition: .3s ease-in-out
 }
 
 .covid .appDetail, .calorie .appDetail{
-  width: 540px;
+  width: 700px;
   height: 330px;
   text-align: left;
   padding-left: 48px;
@@ -229,10 +248,19 @@ iframe{
 .description{
   font-size: 20px;
 }
-.skillUsed{
-  font-weight: bold;
+
+ul{
+  padding:0;
+}
+
+ul li{
+  display: inline-block;
+  background-color: #202022;
   font-size: 20px;
-  margin-top: 30px;
+  border-radius: 6px;
+  padding: 4px 10px;
+  margin: 30px 5px 0 0;
+  text-transform: lowercase;
 }
 
 .sources{
@@ -242,11 +270,18 @@ iframe{
 }
 
 .sources a{
-  color: #fff089;
-  text-decoration:underline;
+  background-color: #202022;
+  color: white;
+  padding:10px 40px;
+  text-decoration: none;
   margin: 30px 15px 0 0;
-  width:fit-content;
+  width: fit-content;
   font-weight: bold;
+}
+
+.sources a:hover{
+  background-color: #fff;
+  color: #202022;
 }
 
 
