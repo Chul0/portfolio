@@ -3,13 +3,17 @@
     min-height: 80px;
     font-size: 20px;
     position: fixed;
-    width:fit-content
-    /* border-bottom: 1px solid white; */
+    width:fit-content;
+    /* border-bottom: 5px solid #151517; */
 }
 
-
-.navBar:hover, .nameContatiner:hover{
+.nameContatiner:hover{
     cursor: pointer;
+}
+
+#sp:hover{
+    cursor: pointer;
+    background-color: #fff;
 }
   
   
@@ -22,8 +26,7 @@
   
   
 .homeName, .navLink {
-   margin-left: 30px;
-   padding-top: 30px;
+   padding: 20px 0 20px 20px;
    background-color: black;
    width: 100vw;
 }
@@ -40,6 +43,7 @@
     display: flex;
     align-items: center;
     margin:auto;
+    background-color: #151517;
 }
   
 .nameContatiner{
