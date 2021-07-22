@@ -1,10 +1,26 @@
 // import resume from '../images/Sungchul_Park_Resume.pdf'b
+import '../TopPage.css'
 import { useState } from 'react'
-import Portfolio from './Portfolio'
+import { Link } from 'react-scroll'
+
 
 const Home = () => {
     return(
         <>
+            <div className="topPage">
+                <div className="nameContatiner">
+                    <Link 
+                        activeClass="active"
+                        to="home"
+                        spy="true"
+                        smooth={true}
+                        duration={1000}
+                        >
+                        <span id="firstName">SUNGCHUL</span>
+                        <span id="lastName">  PARK</span>
+                    </Link>
+                </div>
+            </div>
         <div className="home">
             <div className="myName">
                 <p className="whoAmI"> Software Engineer / Fullstack Developer </p>

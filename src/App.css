@@ -7,38 +7,14 @@
 }
 
 
-.navBar {
-  background-color:black;
-  min-height: 80px;
-  display: flex;
-  justify-content: space-between;
-  font-size: 20px;
-  border-bottom: 1px solid white;
-}
-
-link{
-  cursor: pointer;
-}
-
-
-.navBar a {
-  color: #FFF;
-  text-decoration: none;
-  margin: 10px;
-}
-
-
-
-.homeName, .navLink {
- margin: 30px;
- color: white;
-}
-
 .home {
   display: flex;
   flex-direction: column;
   border-bottom: 8px solid #222;
+  height: 100vh;
 }
+
+
 .myName {
   margin: auto;
   background-color: black;
@@ -157,6 +133,7 @@ link{
   margin: auto auto 30px auto;
   padding: 90px auto;
   border-bottom: 8px solid #222;
+  height: 100vh;
 }
 
 
@@ -198,7 +175,7 @@ iframe{
 
 .netflastinate .appDetail, .fashun .appDetail{
   /* border: 1px solid white; */
-  width: 700px;
+  width: 650px;
   height: fit-content;
   text-align: left;
   padding-right: 48px;
@@ -214,26 +191,35 @@ iframe{
   border: 1px solid rgb(194, 193, 193);
   margin: 100px 20px auto auto;
   object-fit: contain;
-  image-rendering: crisp-edges;
-  image-rendering: -moz-crisp-edges;/* Firefox */
-  image-rendering: -o-crisp-edges; /* Opera */
-  image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming)*/
-  -ms-interpolation-mode: nearest-neighbor;/* IE (non-standard property) */
-  -webkit-filter: grayscale(100%);
+  /* -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
+  -ms-filter: grayscale(100%); */
+}
+
+.thumbnails2{
+  width: 800px;
+  border: 1px solid rgb(194, 193, 193);
+  position: absolute;
+  left: 25%;
+  top: 90%;
 }
 
 .thumbnails:hover{
   -webkit-filter: none;
   -moz-filter: none;
   -ms-filter: none; 
-  transform: scale(3);
-  transition: .3s ease-in-out
+  transform: scale(3) translateX(20%) translateY(-30%);
+  transition: .3s ease-in-out;
+  object-fit: contain;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;/* Firefox */
+  image-rendering: -o-crisp-edges; /* Opera */
+  image-rendering: -webkit-optimize-contrast;/* Webkit (non-standard naming)*/
+  -ms-interpolation-mode: nearest-neighbor;/* IE (non-standard property) */
 }
 
 .covid .appDetail, .calorie .appDetail{
-  width: 700px;
+  width: 650px;
   height: 330px;
   text-align: left;
   padding-left: 48px;
@@ -272,7 +258,7 @@ ul li{
 .sources a{
   background-color: #202022;
   color: white;
-  padding:10px 40px;
+  padding:10px 30px;
   text-decoration: none;
   margin: 30px 15px 0 0;
   width: fit-content;

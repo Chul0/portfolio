@@ -1,8 +1,4 @@
 import { useState } from 'react'
-// import netflastinateLogo from '../images/netflastinate.png'
-// import covidLogo from '../images/covid.png'
-// import fashunLogo from '../images/fashun.png'
-// import calorieLogo from '../images/calorie.png'
 import netThumbnail from '../Thumbnails/netThumbnail.png'
 import netThumbnail2 from '../Thumbnails/netThumbnail2.png'
 import fashunThumbnail from '../Thumbnails/fashunThumbnail.png'
@@ -14,61 +10,22 @@ import calorieThumbnail2 from '../Thumbnails/calorieThumbnail2.png'
 
 
 const Portfolio = () => {
-    // const [netflastinate, setNetflastinate] = useState(false)
-    // const [covid, setCovid] = useState(false)
-    // const [fashun, setFashun] = useState(false)
-    // const [calorie, setCalorie] = useState(false)
+    const [netflastinate, setNetflastinate] = useState(false)
+    const [covid, setCovid] = useState(false)
+    const [fashun, setFashun] = useState(false)
+    const [calorie, setCalorie] = useState(false)
+  
 
-    // const netflModal = () => {
-    //     setNetflastinate(true)
-    //     setCovid(false)
-    //     setFashun(false)
-    //     setCalorie(false)
-    //     window.scrollTo(0, 500)
-    // }
-
-    // const covidModal = () => {
-    //     setCovid(true)
-    //     setNetflastinate(false)
-    //     setFashun(false)
-    //     setCalorie(false)
-    //     window.scrollTo(0, 500)
-    // }
-
-    // const fashunModal = () => {
-    //     setFashun(true)
-    //     setCovid(false)
-    //     setNetflastinate(false)
-    //     setCalorie(false)
-    //     window.scrollTo(0, 500)
-    // }
-
-    // const caloriModal = () => {
-    //     setCalorie(true)
-    //     setCovid(false)
-    //     setNetflastinate(false)
-    //     setFashun(false)
-    //     window.scrollTo(0, 500)
-    // }
+   const netnet = () =>{
+       setNetflastinate(!netflastinate)
+   }
+    
 
     return (
         <>
         <div className="portfolio-container">
 
-        {/* <div className="left">
-                <img src={netflastinateLogo} 
-                     onClick={netflModal} 
-                />
-                <img src={covidLogo}
-                     onClick={covidModal}/>
-            </div>
-
-            <div className="right">
-                <img src={fashunLogo} 
-                     onClick={fashunModal}/>
-                <img src={calorieLogo}
-                     onClick={caloriModal}/>
-            </div> */}
+        
         </div>
        
         
@@ -92,7 +49,7 @@ const Portfolio = () => {
                     <div className="appDetail">
                         <p className="appName">Netflastinate </p>
                         <p className="description">Netflastinate is a movie trailer app where the user can watch movie trailers and save them in their watch-list.
-                        "Netflastinate" – (slang) using Netflix to procrastinate</p>
+                        "Netflastinate" – (slang) using Netflix to procrastinate.</p>
                         <ul className="skillUsed">
                             <li>React.js</li>
                             <li>Express</li>
@@ -111,6 +68,11 @@ const Portfolio = () => {
                     <iframe src="https://www.youtube.com/embed/il_xlQ79nyk?playlist=il_xlQ79nyk&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" ></iframe>
                 </div>
                 <div className="thumbnailContainer">
+                  <img className="thumbnails" src={netThumbnail} onMouseEnter={netnet} onMouseLeave={netnet}/>
+                  {/* {netflastinate &&
+                    <img className="thumbnails2" src={netThumbnail}/> 
+                  } */}
+                    <img className="thumbnails" src={netThumbnail2} />
                     <img className="thumbnails" src={netThumbnail} />
                     <img className="thumbnails" src={netThumbnail2} />
                 </div>
