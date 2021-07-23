@@ -4,7 +4,7 @@ import Home from '../pages/Home'
 
 
 
-const NavBar = () => {
+const NavBar = (props) => {
 
     return (
         <nav className="navBar">

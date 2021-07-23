@@ -27,7 +27,7 @@
   
 .homeName, .navLink {
    padding: 20px 0 20px 20px;
-   background-color: black;
+   /* background-color: black; */
    width: 100vw;
 }
 
@@ -225,4 +225,8 @@
 	100% {
 		opacity: 0.3;
 	}
+}
+
+.appButtons{
+	display: none;
 }

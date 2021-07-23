@@ -1,19 +1,21 @@
 .about {
     display: flex;
-    flex-direction: column;
-    border-bottom: 8px solid #222;
+    justify-content: space-between;
+    border-bottom: 8px solid #151517;
     height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom right, black 50%, #151517 50%);
 }
-  
+
   
 .myName {
-  margin: auto;
-  background-color: black;
+  margin: 50px 0 0 15vh;
   color: white;
-  width: 1167px;
+  width: 100vh;
   height: 100%;
   display: flex;
   flex-direction: column;
+  
 }
 
 .name {
@@ -26,9 +28,10 @@
 .jobTitle {
  margin: 10vh 30px 10vh 0;
  font-weight: bold;
- font-size: 2.5vw;
- color: rgb(238, 234, 124);
+ font-size: 40px;
  font-family: 'Do Hyeon', sans-serif;
+ /* background-color: #202022; */
+ width: fit-content;
 }
 
 .intro{
@@ -51,7 +54,6 @@
     margin: 30px 15px 0 0;
     width: fit-content;
     font-weight: bold;
-      
 }
 
 .contacts a:hover{
@@ -106,3 +108,33 @@ text-transform: lowercase;
   font-size: 22px;
   font-family: 'Do Hyeon', sans-serif;
  }
+
+ .parent{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-end;
+ }
+ .appButtons{
+     display: flex;
+     flex-direction: column;
+     justify-content:flex-end;
+     margin-right: 30px;
+     position: fixed;
+     top:0;
+     right:0;
+     bottom: 20px;
+
+ }
+
+ .apps{
+     font-size: 40px;
+     margin: 10px;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: bolder;
+ }
+
+ .apps:hover{
+    cursor:pointer;
+    border-bottom: 5px solid white;
+ }
+ 

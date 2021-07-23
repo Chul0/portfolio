@@ -2,11 +2,30 @@
 import '../CSS/TopPage.css';
 import '../CSS/About.css';
 import { Link } from 'react-scroll'
+import AppButtons from '../components/AppButtons';
+import {useState} from 'react'
+import homeLogo from '../images/homelogo.jpg'
 
 
 const Home = () => {
+    const [appButtons, setappButtons] = useState(false)
+
+    
     return(
         <>
+         <nav className="navBar">
+            <div className="homeName">
+                <Link id="sp"
+                      to="topPage"
+                      activeClass="active"
+                      spy="true"
+                      smooth={true}
+                      duration={1000}  
+                      onClick={()=>{setappButtons(false)}}
+                ><img src={homeLogo} style={{width:"30px"}} /></Link>
+            </div>
+
+        </nav>
             <div className="topPage">
                 <div className="nameContatiner">
                     <Link 
@@ -14,7 +33,8 @@ const Home = () => {
                         to="about"
                         spy="true"
                         smooth={true}
-                        duration={1000}>
+                        duration={1000}
+                        onClick={()=>{setappButtons(true)}}>
                         <span id="firstName">SUNGCHUL</span>
                         <span id="lastName">  PARK</span>
                     </Link>
@@ -53,6 +73,9 @@ const Home = () => {
                     <a href="mailto:sungchulpark0@gmail.com" target="_blank">Email</a>
                 </div>
             </div>
+            { appButtons && 
+                <AppButtons />
+            }
         </div>
         {/* <div className="portfolioPage">
                 <Portfolio />
