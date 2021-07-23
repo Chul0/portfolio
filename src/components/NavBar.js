@@ -4,16 +4,13 @@ import Home from '../pages/Home'
 
 
 
-const NavBar = () => {
-
-const navigateToTop = () =>{
-    window.scrollTop(0)
-}
+const NavBar = (props) => {
 
     return (
         <nav className="navBar">
             <div className="homeName">
-                <Link to="topPage"
+                <Link id="sp"
+                      to="topPage"
                       activeClass="active"
                       spy="true"
                       smooth={true}
