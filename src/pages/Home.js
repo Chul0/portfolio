@@ -26,7 +26,7 @@ const Home = () => {
             </div>
             <div className="message">
 
-                <p>Porfolio Website is currently being updated</p>
+                <p>Website is currently being updated</p>
             </div>
 
         </nav>
@@ -48,7 +48,7 @@ const Home = () => {
         <div className="about">
             <div className="myName">
                 <p className="jobTitle"> Software Engineer / Frontend Developer </p>
-                <p className="intro">Hi I am Chul(Sungchul), a Creative Developer, with a fashion design background.</p>
+                <p className="intro">Hi I am Chul(Sungchul), a Creative Developer with a fashion design background.</p>
                 <p className="language">Tools & Technologies</p>
                 <div className="techStack">
                     <i class="devicon-html5-plain-wordmark colored"></i>  
