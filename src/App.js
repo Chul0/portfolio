@@ -23,8 +23,6 @@ function App() {
       />
 
     <Portfolio />
-    <p id='hi'>hi </p>
-
     </div>
   );
 }
