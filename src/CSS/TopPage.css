@@ -31,6 +31,16 @@
    width: 100vw;
 }
 
+.message{
+	width: 95vw;
+	text-align: right;
+	margin: 0;
+	color: rgb(245, 61, 61);
+}
+
+.message p{
+	margin:0
+}
 
 .topPage{
     height:100vh;

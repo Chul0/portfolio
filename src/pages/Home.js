@@ -22,7 +22,11 @@ const Home = () => {
                       smooth={true}
                       duration={1000}  
                       onClick={()=>{setappButtons(false)}}
-                ><img src={homeLogo} style={{width:"30px"}} /></Link>
+                ><img src={homeLogo} style={{width:"30px"}} /> </Link>
+            </div>
+            <div className="message">
+
+                <p>Porfolio Website is currently being updated</p>
             </div>
 
         </nav>
