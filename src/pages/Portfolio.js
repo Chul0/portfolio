@@ -11,41 +11,40 @@ import calorieThumbnail2 from '../Thumbnails/calorieThumbnail2.png'
 
 const Portfolio = () => {
     const [netflastinate, setNetflastinate] = useState(false)
-    const [covid, setCovid] = useState(false)
-    const [fashun, setFashun] = useState(false)
-    const [calorie, setCalorie] = useState(false)
+    // const [covid, setCovid] = useState(false)
+    // const [fashun, setFashun] = useState(false)
+    // const [calorie, setCalorie] = useState(false)
   
+    const showNetflastinate = () => {
+        setNetflastinate(!netflastinate)
+        setTimeout(showNetflastinate, 1000);
+    }
 
-   const netnet = () =>{
-       setNetflastinate(!netflastinate)
-   }
+
+
     
+//     if(netflastinate){
+//         setTimeout(() => {
+//         showNetflastinate()
+//     }, 1000);
+// }
+
+  
 
     return (
         <>
-        <div className="portfolio-container">
-
-        
-        </div>
-       
-        
             <div className="netflastinate" >
                 <div className="youtubeContainer">
-                <div className="title">
-                        <img src="https://i.ibb.co/pWs82w7/netflastinat.png" />
-                        <div className="icon">
-                            <a href="https://github.com/Chul0/Netflastinate-frontend" target="_blank">
-                                <img src="https://i.ibb.co/0jrq4X8/fe.jpg"/>
-                            </a>
-                            <a href="https://github.com/Chul0/Netflastinate-backend" target="_blank">
-                                <img src="https://i.ibb.co/B6KDNWd/be.jpg"/>
-                            </a>
-                            <a href="https://netflastinate.herokuapp.com/" target="_blank">
-                                <img src="https://i.ibb.co/N15ypqp/hp.jpg"/>
-                            </a>
-                        </div>
-                    </div>
-                
+                    {netflastinate ?
+                        <iframe src="https://www.youtube.com/embed/il_xlQ79nyk?autoplay=1&playlist=il_xlQ79nyk&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" ></iframe>
+                        :
+                        <>
+                            <div className="player" onClick={showNetflastinate}><button className="playBtn">►</button></div> 
+                        </>
+                        
+                    }
+            
+                <div className="wrapper">
                     <div className="appDetail">
                         <p className="appName">Netflastinate </p>
                         <p className="description">Netflastinate is a movie trailer app where the user can watch movie trailers and save them in their watch-list.
@@ -56,7 +55,12 @@ const Portfolio = () => {
                             <li>Node.js</li>
                             <li>PostgreSQL</li>
                         </ul>
-                        <div className="sources">
+                    </div>
+                        <img className="thumbnails1" src={netThumbnail} />
+                </div>
+                     <img className="thumbnails1" src={netThumbnail2} />
+                </div>
+                <div className="sources">
                             <a href="https://github.com/Chul0/Netflastinate-frontend" target="_blank">Frontend Github
                             </a>
                             <a href="https://github.com/Chul0/Netflastinate-backend" target="_blank">Backend Github
@@ -64,18 +68,7 @@ const Portfolio = () => {
                             <a href="https://netflastinate.herokuapp.com/" target="_blank">Live Webpage
                             </a>
                         </div>
-                    </div>
-                    <iframe src="https://www.youtube.com/embed/il_xlQ79nyk?playlist=il_xlQ79nyk&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" ></iframe>
-                </div>
-                <div className="thumbnailContainer">
-                  <img className="thumbnails" src={netThumbnail} onMouseEnter={netnet} onMouseLeave={netnet}/>
-                  {/* {netflastinate &&
-                    <img className="thumbnails2" src={netThumbnail}/> 
-                  } */}
-                    <img className="thumbnails" src={netThumbnail2} />
-                    <img className="thumbnails" src={netThumbnail} />
-                    <img className="thumbnails" src={netThumbnail2} />
-                </div>
+
             </div>
                     
 
@@ -97,6 +90,7 @@ const Portfolio = () => {
                         </div>
                     </div>
                     <iframe src="https://www.youtube.com/embed/7l0plZNASC4?playlist=7l0plZNASC4&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen"></iframe>
+                    
                     <div className="appDetail">
                         <p className="appName">Beat COVID!</p>
                         <p className="description">Beat COVID! The user kills the COVID-19 virus with a sanitizing click.</p>

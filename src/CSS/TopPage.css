@@ -31,16 +31,6 @@
    width: 100vw;
 }
 
-.message{
-	width: 95vw;
-	text-align: right;
-	margin: 0;
-	color: rgb(245, 61, 61);
-}
-
-.message p{
-	margin:0
-}
 
 .topPage{
     height:100vh;
@@ -64,7 +54,7 @@
   
 #firstName{
     opacity: 1;
-    animation: flickerfirstName 2s linear reverse infinite;
+    animation: flickerfirstName 4s linear reverse infinite;
 }
   
   #firstName::after {
@@ -122,7 +112,7 @@
 
 
 #lastName {
-	animation: flickerlastName 2s linear reverse infinite;
+	animation: flickerlastName 4s linear reverse infinite;
 	position: relative;
 }
 #lastName::after, 

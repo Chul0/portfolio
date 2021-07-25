@@ -24,12 +24,8 @@ const Home = () => {
                       onClick={()=>{setappButtons(false)}}
                 ><img src={homeLogo} style={{width:"30px"}} /> </Link>
             </div>
-            <div className="message">
-
-                <p>Website is currently being updated</p>
-            </div>
-
         </nav>
+        
             <div className="topPage">
                 <div className="nameContatiner">
                     <Link 
@@ -47,8 +43,8 @@ const Home = () => {
 
         <div className="about">
             <div className="myName">
-                <p className="jobTitle"> Software Engineer / Frontend Developer </p>
-                <p className="intro">Hi I am Chul(Sungchul), a Creative Developer with a fashion design background.</p>
+                <p className="jobTitle"> Software Engineer</p>
+                <p className="intro">Hi I am Chul(Sungchul), a creative developer with a fashion design background.</p>
                 <p className="language">Tools & Technologies</p>
                 <div className="techStack">
                     <i class="devicon-html5-plain-wordmark colored"></i>  

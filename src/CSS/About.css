@@ -1,18 +1,18 @@
 .about {
     display: flex;
     justify-content: space-between;
-    border-bottom: 8px solid #151517;
-    height: 100vh;
+    /* border-bottom: 8px solid #151517; */
+    /* height: 100%; */
     width: 100vw;
     background-image: linear-gradient(to bottom right, black 50%, #151517 50%);
 }
 
+
   
 .myName {
-  margin: 50px 0 0 15vh;
+  margin: 50px 0 0 10vw;
   color: white;
-  width: 100vh;
-  height: 100%;
+  width: fit-content;
   display: flex;
   flex-direction: column;
   
@@ -41,7 +41,7 @@
 }
 
 .contacts{
-  margin: 50px 10px 10px 0;
+  margin: 50px 10px 50px 0;
   display:flex;
   width: 240px;
 }
