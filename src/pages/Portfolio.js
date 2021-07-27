@@ -35,7 +35,7 @@ const Portfolio = () => {
                         <>
                             <div className="player" onClick={showNetflastinate}><button className="playBtn">►</button>
 
-                            <span className="watchBanner" onClick={showNetflastinate}>WATCH DEMO</span>
+                            <span className="watchBanner" onClick={showNetflastinate}>VIEW DEMO</span>
                             </div> 
                         </>
                         
