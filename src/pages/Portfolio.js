@@ -21,10 +21,6 @@ const Portfolio = () => {
 
 
 
-
-
-  
-
     return (
         <>
             <div className="netflastinate" >
@@ -39,7 +35,7 @@ const Portfolio = () => {
                         <>
                             <div className="player" onClick={showNetflastinate}><button className="playBtn">►</button>
 
-                            <span className="watchBanner" onClick={showNetflastinate}>Watch Demo</span>
+                            <span className="watchBanner" onClick={showNetflastinate}>WATCH DEMO</span>
                             </div> 
                         </>
                         
@@ -48,18 +44,20 @@ const Portfolio = () => {
                 <div className="wrapper">
                     <div className="appDetail">
                         <p className="appName">Netflastinate </p>
-                        <p className="description">Netflastinate is a movie trailer app where the user can watch movie trailers and save them in their watch-list.
-                        "Netflastinate" – (slang) using Netflix to procrastinate.</p>
                         <ul className="skillUsed">
                             <li>React.js</li>
                             <li>Express</li>
                             <li>Node.js</li>
                             <li>PostgreSQL</li>
                         </ul>
+                        <p className="description">Netflastinate is a movie trailer app where the user can watch movie trailers and save them in their watch-list.
+                        "Netflastinate" – (slang) using Netflix to procrastinate.</p>
                     </div>
+                    <div className="thumbnailContainer">
                         <img className="thumbnails1" src={netThumbnail} />
+                        <img className="thumbnails2" src={netThumbnail2} />
+                    </div>
                 </div>
-                     <img className="thumbnails1" src={netThumbnail2} />
                 </div>
                 <div className="sources">
                             <a href="https://github.com/Chul0/Netflastinate-frontend" target="_blank">Frontend Github
@@ -68,7 +66,7 @@ const Portfolio = () => {
                             </a>
                             <a href="https://netflastinate.herokuapp.com/" target="_blank">Live Webpage
                             </a>
-                        </div>
+                </div>
 
             </div>
                     
