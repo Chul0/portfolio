@@ -71,7 +71,39 @@ iframe {
   margin-top: 20px;
   width:580px;
   height:380px;
+  animation: trans 2s ease-in;
 }
+
+@keyframes trans {
+  0%,
+  90% {
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
+    -ms-filter: blur(10px);
+  }
+  50% {
+    -webkit-filter: blur(30px);
+    -moz-filter: blur(30px);
+    -o-filter: blur(30px);
+    -ms-filter: blur(30px);
+  }
+
+}
+
+
+.Xbtn{
+  position: absolute;
+  font-size: 30px;
+  margin: -15px 0;
+  padding: 4px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Xbtn:hover{
+  cursor: pointer;
+}
+
 
 .player{
   margin: 20px auto 0 auto;
@@ -79,9 +111,57 @@ iframe {
   height:380px;
   background-image: url('https://25.media.tumblr.com/fa65d3852036c8ddc79550ad97e3a75d/tumblr_mn0hw2fmGx1s0rbevo1_500.gif');
   display: flex;
+  box-shadow: 0 3px 10px rgb(84, 83, 83);
   -webkit-filter: grayscale(95%);
   -moz-filter: grayscale(95%);
   -ms-filter: grayscale(95%);
+  animation: flickerPlayer 10s linear reverse infinite;
+  border-radius: 100% 20% / 10% 40%;
+}
+
+@keyframes flickerPlayer {
+  0% {
+    -webkit-filter: grayscale(40%);-moz-filter:grayscale(40%);-ms-filter:grayscale(40%);
+  }
+  5% {
+    -webkit-filter: grayscale(50%);-moz-filter:grayscale(50%);-ms-filter:grayscale(50%);
+  }
+  10% {
+    -webkit-filter: grayscale(60%);-moz-filter:grayscale(60%);-ms-filter:grayscale(60%);
+  }
+  15% {
+    -webkit-filter: grayscale(85%);-moz-filter:grayscale(85%);-ms-filter:grayscale(85%);
+  }
+  25% {
+   -webkit-filter: grayscale(50%);-moz-filter:grayscale(50%);-ms-filter:grayscale(50%);
+  }
+  30% {
+    -webkit-filter: grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);
+  }
+  35% {
+    -webkit-filter: grayscale(40%);-moz-filter:grayscale(40%);-ms-filter:grayscale(40%);
+  }
+  40% {
+    -webkit-filter: grayscale(50%);-moz-filter:grayscale(50%);-ms-filter:grayscale(50%);
+  }
+  45% {
+    -webkit-filter: grayscale(70%);-moz-filter:grayscale(70%);-ms-filter:grayscale(70%);
+  }
+  60% {
+    -webkit-filter: grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);
+  }
+  70% {
+    -webkit-filter: grayscale(85%);-moz-filter:grayscale(85%);-ms-filter:grayscale(85%);
+  }
+  80% {
+    -webkit-filter: grayscale(40%);-m70oz-filter:grayscale(40%);-ms-filter:grayscale(40%);
+  }
+  90% {
+    -webkit-filter: grayscale(50%);-moz-filter:grayscale(50%);-ms-filter:grayscale(50%);
+  }
+  100% {
+    -webkit-filter: grayscale(100%);-moz-filter:grayscale(100%);-ms-filter:grayscale(100%);
+  }
 }
 
 
@@ -99,15 +179,43 @@ iframe {
   cursor: pointer;
 }
 
+
 .playBtn:hover{
   transform: scale(1.2);
   transition: .3s ease-in-out;
 }
 
-iframe:hover{
-  transform: scale(1.1);
-  transition: .3s ease-in-out;
+.watchBanner{
+  margin: 20px auto 0 auto;
+  display: flex;
+  background-color: rgb(248, 244, 244);
+  width: fit-content;
+  padding: 15px;
+  position: absolute;
+  color:black;
+  bottom: 0;
+  left:80%;
+  border-radius: 10% 30% 50% 70%;;
+  font-family: 'Do Hyeon', sans-serif;
 }
+
+.watchBanner:hover{
+  cursor: pointer;
+  animation: bounce 1s linear;
+}
+
+@keyframes bounce {
+  0%  { transform: scale(1,1)    translateY(0); }
+  10% { transform: scale(1.3,.9) translateY(0); }
+  30% { transform: scale(.9,1.1) translateY(-30px); }
+  50% { transform: scale(1,1)    translateY(0); }
+  100% { transform: scale(1,1)   translateY(0); }
+}
+
+
+
+
+
 
 
 .links {

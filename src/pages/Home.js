@@ -10,6 +10,15 @@ import homeLogo from '../images/homelogo.jpg'
 const Home = () => {
     const [appButtons, setappButtons] = useState(false)
 
+    const scrollEvent = () =>{
+        if(window.scrollY >= 700) {
+            setappButtons(true);
+        }else{
+            setappButtons(false);
+        }
+    }
+
+    window.addEventListener("scroll", scrollEvent)
     
     return(
         <>
@@ -21,7 +30,7 @@ const Home = () => {
                       spy="true"
                       smooth={true}
                       duration={1000}  
-                      onClick={()=>{setappButtons(false)}}
+                    //   onClick={()=>{setappButtons(false)}}
                 ><img src={homeLogo} style={{width:"30px"}} /> </Link>
             </div>
         </nav>
@@ -34,7 +43,8 @@ const Home = () => {
                         spy="true"
                         smooth={true}
                         duration={1000}
-                        onClick={()=>{setappButtons(true)}}>
+                        // onClick={()=>{setappButtons(true)}}
+                        >
                         <span id="firstName">SUNGCHUL</span>
                         <span id="lastName">  PARK</span>
                     </Link>

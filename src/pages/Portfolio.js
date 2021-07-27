@@ -17,17 +17,11 @@ const Portfolio = () => {
   
     const showNetflastinate = () => {
         setNetflastinate(!netflastinate)
-        setTimeout(showNetflastinate, 1000);
     }
 
 
 
-    
-//     if(netflastinate){
-//         setTimeout(() => {
-//         showNetflastinate()
-//     }, 1000);
-// }
+
 
   
 
@@ -36,10 +30,17 @@ const Portfolio = () => {
             <div className="netflastinate" >
                 <div className="youtubeContainer">
                     {netflastinate ?
+                    <>
                         <iframe src="https://www.youtube.com/embed/il_xlQ79nyk?autoplay=1&playlist=il_xlQ79nyk&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" ></iframe>
+                        <span className="Xbtn" onClick={showNetflastinate}>X</span>
+                        
+                    </>
                         :
                         <>
-                            <div className="player" onClick={showNetflastinate}><button className="playBtn">►</button></div> 
+                            <div className="player" onClick={showNetflastinate}><button className="playBtn">►</button>
+
+                            <span className="watchBanner" onClick={showNetflastinate}>Watch Demo</span>
+                            </div> 
                         </>
                         
                     }
