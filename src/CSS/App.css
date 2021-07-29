@@ -60,9 +60,25 @@
   background-repeat: no-repeat;
   background-size: 600px 400px;
   background-position: 90% 25%;
-  -webkit-filter: grayscale(70%);
-  -moz-filter: grayscale(70%);
-  -ms-filter: grayscale(70%);
+}
+
+.covid{
+  background-image: url('../images/covid.png');
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  background-position: 90% 25%;
+}
+.fashun{
+  background-image: url('../images/fashun.png');
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  background-position: 90% 25%;
+}
+.calorie{
+  background-image: url('../images/calorie.png');
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  background-position: 90% 25%;
 }
 
 
@@ -245,7 +261,7 @@ iframe {
   justify-content: space-between;
 }
 
-.netflastinate .appDetail, .fashun .appDetail{
+.netflastinate .appDetail, .fashun .appDetail, .covid .appDetail, .calorie .appDetail{
   height: fit-content;
   text-align: left;
   margin-left: 10%;
@@ -285,12 +301,12 @@ iframe {
   -ms-interpolation-mode: nearest-neighbor;/* IE (non-standard property) */
 }
 
-.covid .appDetail, .calorie .appDetail{
+/* .covid .appDetail, .calorie .appDetail{
   width: 650px;
   height: 330px;
   text-align: left;
   padding-left: 48px;
-}
+} */
 
 .appName{
   margin: 20px 0 0 0;
