@@ -31,7 +31,7 @@ const Home = () => {
                       smooth={true}
                       duration={1000}  
                     //   onClick={()=>{setappButtons(false)}}
-                ><img src={homeLogo} style={{width:"30px"}} /> </Link>
+                >SP</Link>
             </div>
         </nav>
         

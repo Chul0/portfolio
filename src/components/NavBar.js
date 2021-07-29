@@ -15,7 +15,8 @@ const NavBar = (props) => {
                       spy="true"
                       smooth={true}
                       duration={1000}  
-                ><img src={homeLogo} style={{width:"30px"}} /></Link>
+                ><h1>SddP</h1></Link>
+                <p>hello</p>
             </div>
 
         </nav>

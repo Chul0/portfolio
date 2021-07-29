@@ -55,21 +55,45 @@
   height: fit-content;
 }
 
+.netflastinate{
+  background-image: url('../images/netflastinate.png');
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  background-position: 90% 25%;
+}
+
+.covid{
+  background-image: url('../images/covid.png');
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  background-position: 90% 25%;
+}
+.fashun{
+  background-image: url('../images/fashun.png');
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  background-position: 90% 25%;
+}
+.calorie{
+  background-image: url('../images/calorie.png');
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  background-position: 90% 25%;
+}
 
 
-.youtubeContainer{
+.appContainer{
   /* display: flex; */
   width: 100vw;
   height:fit-content;
   margin: 50px auto auto auto;
-  background-image: url('../images/glitchbackground.png');
     }
 
 
     
 iframe {
-  margin-top: 20px;
-  width:600px;
+  margin: 70px auto;
+  width:70vw;
   height:380px;
   animation: fuzzy 2s ease-in;
 }
@@ -95,7 +119,7 @@ iframe {
 .Xbtn{
   position: absolute;
   font-size: 30px;
-  margin: -15px 0;
+  margin-top: 30px;
   padding: 4px 10px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -106,17 +130,18 @@ iframe {
 
 
 .player{
-  margin: 20px auto 0 auto;
-  width:600px;
-  height:380px;
-  background-image: url('https://25.media.tumblr.com/fa65d3852036c8ddc79550ad97e3a75d/tumblr_mn0hw2fmGx1s0rbevo1_500.gif');
+  margin: 100px auto;
+  width: 70vw;
+  height: 380px;
+  background-image: url('https://media.giphy.com/media/l41K3o5TzvmhZwd4A/giphy.gif');
   display: flex;
   box-shadow: 0 3px 10px rgb(84, 83, 83);
   -webkit-filter: grayscale(95%);
   -moz-filter: grayscale(95%);
   -ms-filter: grayscale(95%);
   animation: flickerPlayer 10s linear reverse infinite;
-  /* border-radius: 100% 20% / 10% 40%; */
+  /* border-radius: 100% 10% / 5% 1%; */
+  margin-right: 15%;
 }
 
 @keyframes flickerPlayer {
@@ -206,9 +231,7 @@ iframe {
 }
 
 
-.links {
-  display: flex;
-}
+
 
 /* .title {
   display:none;
@@ -238,11 +261,10 @@ iframe {
   justify-content: space-between;
 }
 
-.netflastinate .appDetail, .fashun .appDetail{
-  width: 30vw;
+.netflastinate .appDetail, .fashun .appDetail, .covid .appDetail, .calorie .appDetail{
   height: fit-content;
   text-align: left;
-  margin: 50px auto;
+  margin-left: 10%;
 }
 
 .thumbnailContainer{
@@ -279,21 +301,31 @@ iframe {
   -ms-interpolation-mode: nearest-neighbor;/* IE (non-standard property) */
 }
 
-.covid .appDetail, .calorie .appDetail{
+/* .covid .appDetail, .calorie .appDetail{
   width: 650px;
   height: 330px;
   text-align: left;
   padding-left: 48px;
-}
+} */
 
 .appName{
   margin: 20px 0 0 0;
-  font-size: 40px;
+  font-size: 1.5vw;
   font-weight: bolder;
+  border-top: 1px solid #979797;
+  width: fit-content;
+  padding-left: 50px;
+  padding-top: 10px;
+  margin-bottom: 30px;
 }
 
 .description{
-  font-size: 20px;
+  width:65%;
+  font-size: 2vw;
+  font-weight: 100;
+  letter-spacing: -.00835em;
+  line-height: 1.4;
+  margin-left: 10%;
 }
 
 .skillUsed{
@@ -302,7 +334,8 @@ iframe {
 
 .skillUsed li{
   display: inline-block;
-  background-color: #202022;
+  list-style-type: none;
+  background-color: #121212;
   font-size: 20px;
   border-radius: 6px;
   padding: 4px 10px;
@@ -310,25 +343,50 @@ iframe {
   text-transform: lowercase;
 }
 
+.links {
+    left: 0;
+    padding-left: 50px;
+    padding-top: 10px;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    /* transform: rotate(-90deg); */
+    transform-origin: 0 50%;
+    top: 650%;
+    border-bottom: 1px solid #979797;
+    letter-spacing: 0.3em;
+    width:fit-content;
+    margin: 20px 0 10px 0;
+    margin-left: 10%;
+
+    
+}
+
 .sources{
   display: flex;
   /* flex-direction: column; */
-  font-size: 20px;
+  font-size: 16px;
+  position: relative;
+  margin: 0 0 50px 0;
+  margin-left: 10%;
+}
+
+.linkContainer{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
 }
 
 .sources a{
-  background-color: #202022;
   color: white;
-  padding:10px 30px;
+  padding:10px 5px;
   text-decoration: none;
-  margin: 30px 15px 0 0;
+  margin: 0 15px 0 0;
   width: fit-content;
-  font-weight: bold;
+  font-size: 20px;
 }
 
 .sources a:hover{
-  background-color: #fff;
-  color: #202022;
+  border-bottom: 1px solid white;
 }
 
 
@@ -414,7 +472,7 @@ iframe {
   margin: 12px auto;
 }
 
-.youtubeContainer {
+.appContainer {
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -499,7 +557,7 @@ i {
   width: fit-content;
 }
 
-.youtubeContainer {
+.appContainer {
   display: flex;
   flex-direction: column-reverse;
   width: fit-content;

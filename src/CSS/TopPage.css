@@ -13,14 +13,20 @@
 
 #sp:hover{
     cursor: pointer;
-    background-color: #fff;
+	border-bottom: 5px solid white;
 }
   
   
 .navBar a {
     color: #FFF;
     text-decoration: none;
-    margin: 10px;
+}
+
+#sp{
+	font-style: italic;
+	margin: 0;
+	font-family: 'Do Hyeon', sans-serif;
+	letter-spacing: 0.1em;
 }
   
   
