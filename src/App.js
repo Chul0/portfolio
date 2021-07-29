@@ -2,7 +2,7 @@ import './CSS/App.css';
 
 
 import { Route } from 'react-router-dom'
-import NavBar from './components/NavBar'
+// import NavBar from './components/NavBar'
 import Portfolio from './pages/Portfolio';
 import Home from './pages/Home';
 

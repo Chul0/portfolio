@@ -7,6 +7,7 @@ import covidThumbnail from '../Thumbnails/covidThumbnail.png'
 import covidThumbnail2 from '../Thumbnails/covidThumbnail2.png'
 import calorieThumbnail from '../Thumbnails/calorieThumbnail.png'
 import calorieThumbnail2 from '../Thumbnails/calorieThumbnail2.png'
+import netLogo from '../images/netflastinate.png'
 
 
 const Portfolio = () => {
@@ -24,8 +25,34 @@ const Portfolio = () => {
     return (
         <>
             <div className="netflastinate" >
-                <div className="youtubeContainer">
-                    {netflastinate ?
+                <div className="appContainer">
+                    
+                {/* <div className="wrapper"> */}
+                    <div className="appDetail">
+                        <p className="appName">IN BRIEF </p>
+                        {/* <ul className="skillUsed">
+                            <li>React.js</li>
+                            <li>Express</li>
+                            <li>Node.js</li>
+                            <li>PostgreSQL</li>
+                        </ul> */}
+                        <div className="description">Netflastinate is a movie trailer app where the user can watch movie trailers and save them in their watch-list.<br></br>
+                        "Netflastinate" – (slang) using Netflix to procrastinate.
+                         <ul className="skillUsed">
+                            <li>React.js</li>
+                            <li>Express</li>
+                            <li>Node.js</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                        </div>
+
+                    </div>
+                    {/* <div className="thumbnailContainer">
+                        <img className="thumbnails1" src={netThumbnail} />
+                        <img className="thumbnails2" src={netThumbnail2} />
+                    </div> */}
+                {/* </div> */}
+                {netflastinate ?
                     <>
                         <iframe src="https://www.youtube.com/embed/il_xlQ79nyk?autoplay=1&playlist=il_xlQ79nyk&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" ></iframe>
                         <span className="Xbtn" onClick={showNetflastinate}>X</span>
@@ -35,38 +62,22 @@ const Portfolio = () => {
                         <>
                             <div className="player" onClick={showNetflastinate}><button className="playBtn">►</button>
 
-                            <span className="watchBanner" onClick={showNetflastinate}>VIEW DEMO</span>
+                            <span className="watchBanner" onClick={showNetflastinate}>WATCH DEMO</span>
                             </div> 
-                        </>
-                        
+                        </>              
                     }
-            
-                <div className="wrapper">
-                    <div className="appDetail">
-                        <p className="appName">Netflastinate </p>
-                        <ul className="skillUsed">
-                            <li>React.js</li>
-                            <li>Express</li>
-                            <li>Node.js</li>
-                            <li>PostgreSQL</li>
-                        </ul>
-                        <p className="description">Netflastinate is a movie trailer app where the user can watch movie trailers and save them in their watch-list.
-                        "Netflastinate" – (slang) using Netflix to procrastinate.</p>
-                    </div>
-                    <div className="thumbnailContainer">
-                        <img className="thumbnails1" src={netThumbnail} />
-                        <img className="thumbnails2" src={netThumbnail2} />
+                    
+                    <p className="links">LINKS</p>
+                    <div className="sources">
+                        <a href="https://github.com/Chul0/Netflastinate-frontend" target="_blank">Frontend Github
+                        </a>
+                        <a href="https://github.com/Chul0/Netflastinate-backend" target="_blank">Backend Github
+                        </a>
+                        <a href="https://netflastinate.herokuapp.com/" target="_blank">Live Webpage
+                        </a>
                     </div>
                 </div>
-                </div>
-                <div className="sources">
-                            <a href="https://github.com/Chul0/Netflastinate-frontend" target="_blank">Frontend Github
-                            </a>
-                            <a href="https://github.com/Chul0/Netflastinate-backend" target="_blank">Backend Github
-                            </a>
-                            <a href="https://netflastinate.herokuapp.com/" target="_blank">Live Webpage
-                            </a>
-                </div>
+                
 
             </div>
                     
