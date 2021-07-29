@@ -34,7 +34,9 @@
 .homeName, .navLink {
    padding: 20px 0 20px 20px;
    /* background-color: black; */
-   width: 100vw;
+   width: 100vw; 
+   display: flex;
+   justify-content: space-between;
 }
 
 
@@ -43,7 +45,7 @@
     width: 100vw;
     font-family: 'Do Hyeon', sans-serif;
     font-weight: bolder;
-    font-size: 3.5vw; 
+    font-size: 4.5vw; 
     color: #f1f1f1;
     letter-spacing: 0.7em;
     display: flex;

@@ -11,7 +11,7 @@ const Home = () => {
     const [appButtons, setappButtons] = useState(false)
 
     const scrollEvent = () =>{
-        if(window.scrollY >= 700) {
+        if(window.scrollY >= 600) {
             setappButtons(true);
         }else{
             setappButtons(false);
@@ -30,8 +30,8 @@ const Home = () => {
                       spy="true"
                       smooth={true}
                       duration={1000}  
-                    //   onClick={()=>{setappButtons(false)}}
                 >SP</Link>
+                <span style={{"margin-right": "5%", "color":"red"}}>Website is currently being updated</span>
             </div>
         </nav>
         
