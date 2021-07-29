@@ -39,7 +39,7 @@ const Portfolio = () => {
             <div className="netflastinate" >
                 <div className="appContainer">
                     <div className="appDetail">
-                        <p className="appName">IN BRIEF </p>
+                        <p className="appName" style={{"color":"red"}}>Netflastinate </p>
                         <div className="description">Netflastinate is a movie trailer app where the user can watch movie trailers and save them in their watch-list.<br></br>
                         "Netflastinate" – (slang) using Netflix to procrastinate.
                          <ul className="skillUsed">
@@ -83,7 +83,7 @@ const Portfolio = () => {
             <div className="covid">
                  <div className="appContainer">
                     <div className="appDetail">
-                        <p className="appName">IN BRIEF </p>
+                        <p className="appName" style={{"color":"#1F6FEB"}}>Beat covid </p>
                         <div className="description">Beat COVID! The user kills the COVID-19 virus with a sanitizing click.
                          <ul className="skillUsed">
                             <li>HTML5</li>
@@ -101,7 +101,7 @@ const Portfolio = () => {
                     </>
                         :
                         <>
-                            <div className="player" onClick={showCovid}><button className="playBtn">►</button>
+                            <div className="player2" onClick={showCovid}><button className="playBtn">►</button>
                             <span className="watchBanner" onClick={showCovid}>WATCH DEMO</span>
                             </div> 
                         </>              
@@ -121,7 +121,7 @@ const Portfolio = () => {
            <div className="fashun">
                 <div className="appContainer">
                     <div className="appDetail">
-                        <p className="appName">IN BRIEF </p>
+                        <p className="appName">Fashun</p>
                         <div className="description">Fashion show coverage with expandable runway shows with the ability for users to create mood boards, saving their most inspiring looks.
                          <ul className="skillUsed">
                             <li>React.js</li>
@@ -139,7 +139,7 @@ const Portfolio = () => {
                     </>
                         :
                     <>
-                        <div className="player" onClick={showFashun}><button className="playBtn">►</button>
+                        <div className="player3" onClick={showFashun}><button className="playBtn">►</button>
                         <span className="watchBanner" onClick={showFashun}>WATCH DEMO</span>
                         </div> 
                     </>              
@@ -162,7 +162,7 @@ const Portfolio = () => {
             <div className="calorie">
                  <div className="appContainer">
                  <div className="appDetail">
-                        <p className="appName">IN BRIEF </p>
+                        <p className="appName" style={{"color":"green"}}>Calorie Tracker</p>
                         <div className="description">Calorie tracker is a nutrition app that helps users keep track of their daily caloric intake.
                          <ul className="skillUsed">
                          <li>HTML5</li>
@@ -181,7 +181,7 @@ const Portfolio = () => {
                     </>
                         :
                     <>
-                        <div className="player" onClick={showCalorie}><button className="playBtn">►</button>
+                        <div className="player4" onClick={showCalorie}><button className="playBtn">►</button>
 
                         <span className="watchBanner" onClick={showCalorie}>WATCH DEMO</span>
                         </div> 

@@ -56,26 +56,26 @@
 }
 
 .netflastinate{
-  background-image: url('../images/netflastinate.png');
+  /* background-image: url('../images/netflastinate.png'); */
   background-repeat: no-repeat;
   background-size: 600px 400px;
   background-position: 90% 25%;
 }
 
 .covid{
-  background-image: url('../images/covid.png');
+  /* background-image: url('../images/covid.png'); */
   background-repeat: no-repeat;
   background-size: 600px 400px;
   background-position: 90% 25%;
 }
 .fashun{
-  background-image: url('../images/fashun.png');
+  /* background-image: url('../images/fashun.png'); */
   background-repeat: no-repeat;
   background-size: 600px 400px;
   background-position: 90% 25%;
 }
 .calorie{
-  background-image: url('../images/calorie.png');
+  /* background-image: url('../images/calorie.png'); */
   background-repeat: no-repeat;
   background-size: 600px 400px;
   background-position: 90% 25%;
@@ -126,14 +126,15 @@ iframe {
 
 .Xbtn:hover{
   cursor: pointer;
+  color: green
 }
 
 
-.player{
-  margin: 100px auto;
+.player, .player2, .player3, .player4{
+  margin: 80px auto;
   width: 70vw;
   height: 380px;
-  background-image: url('https://media.giphy.com/media/l41K3o5TzvmhZwd4A/giphy.gif');
+  background-image: url('https://media.giphy.com/media/jQS9YkJXofyeI/giphy.gif');
   display: flex;
   box-shadow: 0 3px 10px rgb(84, 83, 83);
   -webkit-filter: grayscale(95%);
@@ -143,6 +144,18 @@ iframe {
   /* border-radius: 100% 10% / 5% 1%; */
   margin-right: 15%;
 }
+
+.player2{
+  background-image: url('https://media.giphy.com/media/w8g4DuVGgKkes3kt83/giphy.gif');
+}
+.player3{
+  background-image: url('https://media.giphy.com/media/l41K3o5TzvmhZwd4A/giphy.gif');
+}
+.player4{
+  background-image: url('https://media.giphy.com/media/3ohhwz6W0lJGQAV1cs/giphy.gif');
+}
+
+
 
 @keyframes flickerPlayer {
   0% {
@@ -317,6 +330,7 @@ iframe {
   padding-left: 50px;
   padding-top: 10px;
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 
 .description{
