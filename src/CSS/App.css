@@ -86,14 +86,14 @@
   /* display: flex; */
   width: 100vw;
   height:fit-content;
-  margin: 50px auto auto auto;
+  margin: 0;
     }
 
 
     
 iframe {
   margin: 70px auto;
-  width:70vw;
+  width:700px;
   height:380px;
   animation: fuzzy 2s ease-in;
 }
@@ -126,23 +126,21 @@ iframe {
 
 .Xbtn:hover{
   cursor: pointer;
-  color: green
 }
 
 
 .player, .player2, .player3, .player4{
   margin: 80px auto;
-  width: 70vw;
+  width: 700px;
   height: 380px;
   background-image: url('https://media.giphy.com/media/jQS9YkJXofyeI/giphy.gif');
   display: flex;
   box-shadow: 0 3px 10px rgb(84, 83, 83);
-  -webkit-filter: grayscale(95%);
+  /* -webkit-filter: grayscale(95%);
   -moz-filter: grayscale(95%);
   -ms-filter: grayscale(95%);
-  animation: flickerPlayer 10s linear reverse infinite;
-  /* border-radius: 100% 10% / 5% 1%; */
-  margin-right: 15%;
+  animation: flickerPlayer 10s linear reverse infinite; */
+  /* border-radius: 10px; */
 }
 
 .player2{
@@ -224,18 +222,21 @@ iframe {
 }
 
 .watchBanner{
-  margin: 20px auto 0 auto;
+  margin: 320px 0 0 630px;
   display: flex;
-  background-color: rgb(248, 244, 244);
+  /* background-color: rgb(249, 34, 34); */
   width: fit-content;
   padding: 15px;
   position: absolute;
-  color:black;
-  bottom: 10%;
-  left: 85%;
+  color:white;
   /* border-radius: 100% 20% / 10% 40%; */
- font-weight: bolder;
+  font-weight: bolder;
+  /* background-image: url('https://i.pinimg.com/originals/c0/8b/c5/c08bc58df6c0307982ab0b475c2d5abc.png');
+  background-size: contain;
+  background-repeat: no-repeat; */
 }
+
+
 
 .watchBanner:hover{
   cursor: pointer;
@@ -277,7 +278,9 @@ iframe {
 .netflastinate .appDetail, .fashun .appDetail, .covid .appDetail, .calorie .appDetail{
   height: fit-content;
   text-align: left;
-  margin-left: 10%;
+  /* margin-left: 10%; */
+  display: flex;
+  
 }
 
 .thumbnailContainer{
@@ -322,25 +325,34 @@ iframe {
 } */
 
 .appName{
-  margin: 20px 0 0 0;
-  font-size: 1.5vw;
+  margin: 0;
+  font-size: 10vw;
   font-weight: bolder;
-  border-top: 1px solid #979797;
+  /* border-top: 1px solid #979797; */
   width: fit-content;
-  padding-left: 50px;
-  padding-top: 10px;
-  margin-bottom: 30px;
+  /* padding-left: 50px; */
+  /* padding-top: 10px; */
+  /* margin-bottom: 30px; */
   text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.appNameDetail{
+  text-align: left;
+  font-size: 1.1vw;
+  margin-left: 2%;
 }
 
 .description{
   width:65%;
-  font-size: 2vw;
+  font-size: 1.5vw;
   font-weight: 100;
   letter-spacing: -.00835em;
   line-height: 1.4;
-  margin-left: 10%;
+  margin:auto;
 }
+
+
 
 .skillUsed{
   padding:0;
