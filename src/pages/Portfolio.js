@@ -36,7 +36,7 @@ const Portfolio = () => {
 
     return (
         <>
-            <div className="netflastinate" >
+            <div className="netflastinate" style={netflastinate ? {"filter":"blur"}:{}}>
                 <div className="appContainer">
                     <div className="appDetail">
                         <p className="appName" style={{"color":"red", "marginLeft":"2%"}}>N</p>
@@ -46,37 +46,21 @@ const Portfolio = () => {
                         <span> (n.) to procrastinate with Netflix</span>
                     </div>
                    
+                    <div className="backgroundContainer">
+                        <span className="backgroundCaptions">Netflastinate is a movie trailer  application <a href="https://netflastinate.herokuapp.com/" target="_blank">LiveWebpage
+                        </a> where the user is able to browse movie trailers and save them in a watch-list.  Netflastinate is a movie trailer application where the user is able to browse movie  <a href="https://github.com/Chul0/Netflastinate-frontend" target="_blank">GitHub
+                        </a> save them in a watch-list. Netflastinate is a movie trailer application where the user is able to save th</span>
+                        
                 {netflastinate ?
-                    <>
+                    <div className="iframeContainer">
                         <iframe src="https://www.youtube.com/embed/il_xlQ79nyk?autoplay=1&playlist=il_xlQ79nyk&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" ></iframe>
                         <span className="Xbtn" onClick={showNetflastinate}>X</span>
-                        
-                    </>
-                        :
-                    <>
-                        <div className="player" onClick={showNetflastinate}><button className="playBtn">►</button>
-
-                        <span className="watchBanner" onClick={showNetflastinate}>WATCH DEMO</span>
-                        </div> 
-                    </>              
-                    }
-                      <div className="description">A movie trailer application where the user is able to browse movie trailers and save  them in a watch-list.
-                         {/* <ul className="skillUsed">
-                            <li>React.js</li>
-                            <li>Express</li>
-                            <li>Node.js</li>
-                            <li>PostgreSQL</li>
-                        </ul> */}
-                        </div>
-                    {/* <p className="links">LINKS</p> */}
-                    <div className="sources">
-                        <a href="https://github.com/Chul0/Netflastinate-frontend" target="_blank">Frontend Github
-                        </a>
-                        <a href="https://github.com/Chul0/Netflastinate-backend" target="_blank">Backend Github
-                        </a>
-                        <a href="https://netflastinate.herokuapp.com/" target="_blank">Live Webpage
-                        </a>
                     </div>
+                        :
+                        <div className="player" onClick={showNetflastinate}><button className="playBtn">►</button>
+                        </div> 
+                    }
+                    </div>              
                 </div>
             </div>
                     
