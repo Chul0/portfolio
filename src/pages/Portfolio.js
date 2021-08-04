@@ -39,16 +39,11 @@ const Portfolio = () => {
             <div className="netflastinate" >
                 <div className="appContainer">
                     <div className="appDetail">
-                        <p className="appName" style={{"color":"red"}}>Netflastinate </p>
-                        <div className="description">Netflastinate is a movie trailer app where the user can watch movie trailers and save them in their watch-list.<br></br>
-                        "Netflastinate" – (slang) using Netflix to procrastinate.
-                         <ul className="skillUsed">
-                            <li>React.js</li>
-                            <li>Express</li>
-                            <li>Node.js</li>
-                            <li>PostgreSQL</li>
-                        </ul>
-                        </div>
+                        <p className="appName" style={{"color":"red", "marginLeft":"2%"}}>N</p>
+                        <p className="appName" style={{"color":"red", "fontSize":"4vw", "paddingTop":"1.5%"}}>etflastinate</p>
+                    </div>
+                    <div className="appNameDetail">
+                        <span> (n.) to procrastinate with Netflix</span>
                     </div>
                    
                 {netflastinate ?
@@ -65,8 +60,15 @@ const Portfolio = () => {
                         </div> 
                     </>              
                     }
-                    
-                    <p className="links">LINKS</p>
+                      <div className="description">A movie trailer application where the user is able to browse movie trailers and save  them in a watch-list.
+                         {/* <ul className="skillUsed">
+                            <li>React.js</li>
+                            <li>Express</li>
+                            <li>Node.js</li>
+                            <li>PostgreSQL</li>
+                        </ul> */}
+                        </div>
+                    {/* <p className="links">LINKS</p> */}
                     <div className="sources">
                         <a href="https://github.com/Chul0/Netflastinate-frontend" target="_blank">Frontend Github
                         </a>

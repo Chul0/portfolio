@@ -55,17 +55,17 @@ const Home = () => {
             <div className="myName">
                 <p className="jobTitle"> Software Engineer</p>
                 <p className="intro">Hi I am Chul(Sungchul), a creative developer with a fashion design background.</p>
-                <p className="language">Tools & Technologies</p>
+                {/* <p className="language">Tools & Technologies</p> */}
                 <div className="techStack">
-                    <i class="devicon-html5-plain-wordmark colored"></i>  
-                    <i class="devicon-css3-plain-wordmark colored"></i>  
-                    <i class="devicon-javascript-plain colored"></i>
-                    <i class="devicon-react-original-wordmark colored"></i>
-                    <i class="devicon-python-plain-wordmark colored"></i>
+                    <i class="devicon-html5-plain-wordmark "></i>  
+                    <i class="devicon-css3-plain-wordmark "></i>  
+                    <i class="devicon-javascript-plain "></i>
+                    <i class="devicon-react-original-wordmark "></i>
+                    <i class="devicon-python-plain-wordmark "></i>
                     <i class="devicon-express-original"></i>
-                    <i class="devicon-nodejs-plain-wordmark colored"></i>
+                    <i class="devicon-nodejs-plain-wordmark "></i>
                     <i class="devicon-sequelize-plain-wordmark"></i>
-                    <i class="devicon-postgresql-plain-wordmark colored"></i>
+                    <i class="devicon-postgresql-plain-wordmark "></i>
                     {/* <li>HTML5</li>
                     <li>CSS3</li>
                     <li>JavaScript</li>
