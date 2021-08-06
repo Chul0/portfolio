@@ -19,24 +19,32 @@ const Portfolio = () => {
     const showNetflastinate = () => {
         setNetflastinate(!netflastinate)
     }
-
     const showCovid = () => {
         setCovid(!covid)
     }
-
     const showFashun = () => {
         setFashun(!fashun)
     }
-
     const showCalorie = () => {
         setCalorie(!calorie)
     }
 
+    const [grey, setGrey] = useState(false)
+
+    const scrollEvent = () =>{
+        if(window.scrollY >= 1500) {
+            setGrey(true);
+        }else{
+            setGrey(false);
+        }
+    }
+
+    window.addEventListener("scroll", scrollEvent)
 
 
     return (
         <>
-            <div className="netflastinate" style={netflastinate ? {"filter":"blur"}:{}}>
+            <div className="netflastinate" style={{opacity: grey ? 0.1 : 1}}>
                 <div className="appContainer">
                     <div className="appDetail">
                         <p className="appName" style={{"color":"red", "marginLeft":"2%"}}>N</p>
@@ -64,7 +72,44 @@ const Portfolio = () => {
                 </div>
             </div>
                     
-
+            <div className="fashun">
+                <div className="appContainer">
+                    <div className="appDetail">
+                        <p className="appName">Fashun</p>
+                        <div className="description">Fashion show coverage with expandable runway shows with the ability for users to create mood boards, saving their most inspiring looks.
+                         <ul className="skillUsed">
+                            <li>React.js</li>
+                            <li>Express</li>
+                            <li>Node.js</li>
+                            <li>PostgreSQL</li>
+                        </ul>
+                        </div>
+                    </div>
+                   
+                {fashun ?
+                    <>
+                        <iframe src="https://www.youtube.com/embed/aTrz__8UJ5I?autoplay=1&playlist=aTrz__8UJ5I&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" ></iframe>
+                        <span className="Xbtn" onClick={showFashun}>X</span>
+                    </>
+                        :
+                    <>
+                        <div className="player3" onClick={showFashun}><button className="playBtn">►</button>
+                        <span className="watchBanner" onClick={showFashun}>WATCH DEMO</span>
+                        </div> 
+                    </>              
+                    }
+                    
+                    <p className="links">LINKS</p>
+                    <div className="sources">
+                    <a href="https://github.com/Chul0/fash-un-frontend" target="_blank">Frontend Github
+                        </a>
+                        <a href="https://github.com/Chul0/fash-un-backend" target="_blank">Backend Github
+                        </a>
+                        <a href="https://fash-un-frontend.herokuapp.com/" target="_blank">Live Webpage
+                        </a>
+                    </div>
+                </div>  
+            </div>
       
             <div className="covid">
                  <div className="appContainer">
@@ -104,44 +149,7 @@ const Portfolio = () => {
             </div>
          
 
-           <div className="fashun">
-                <div className="appContainer">
-                    <div className="appDetail">
-                        <p className="appName">Fashun</p>
-                        <div className="description">Fashion show coverage with expandable runway shows with the ability for users to create mood boards, saving their most inspiring looks.
-                         <ul className="skillUsed">
-                            <li>React.js</li>
-                            <li>Express</li>
-                            <li>Node.js</li>
-                            <li>PostgreSQL</li>
-                        </ul>
-                        </div>
-                    </div>
-                   
-                {fashun ?
-                    <>
-                        <iframe src="https://www.youtube.com/embed/aTrz__8UJ5I?autoplay=1&playlist=aTrz__8UJ5I&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" ></iframe>
-                        <span className="Xbtn" onClick={showFashun}>X</span>
-                    </>
-                        :
-                    <>
-                        <div className="player3" onClick={showFashun}><button className="playBtn">►</button>
-                        <span className="watchBanner" onClick={showFashun}>WATCH DEMO</span>
-                        </div> 
-                    </>              
-                    }
-                    
-                    <p className="links">LINKS</p>
-                    <div className="sources">
-                    <a href="https://github.com/Chul0/fash-un-frontend" target="_blank">Frontend Github
-                        </a>
-                        <a href="https://github.com/Chul0/fash-un-backend" target="_blank">Backend Github
-                        </a>
-                        <a href="https://fash-un-frontend.herokuapp.com/" target="_blank">Live Webpage
-                        </a>
-                    </div>
-                </div>  
-            </div>
+        
                
 
        
