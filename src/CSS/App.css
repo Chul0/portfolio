@@ -3,7 +3,7 @@
   font-family:sans-serif;
   background-color: black;
   color: #FFF;
-  font-family: serif;
+  font-family: 'Do Hyeon', sans-serif;
 }
 
 
@@ -139,16 +139,17 @@ iframe{
   width: 400px;
   height: 400px;
   background-image: url('../images/moonlight-poster0.jpg');
-  background-size: 200px 200px;
+  background-size: 400px 400px;
   object-fit: contain;
   display: flex;
   box-shadow: 0 3px 10px rgb(84, 83, 83);
   position: absolute;
+  border: white 1px solid;
   /* -webkit-filter: grayscale(95%);
   -moz-filter: grayscale(95%);
   -ms-filter: grayscale(95%); */
   animation: flickerPlayer 10s linear reverse infinite;
-  /* border-radius: 10px; */
+  border-radius: 3px;
 }
 
 .player2{
@@ -238,7 +239,70 @@ iframe{
   transition: .3s ease-in-out;
 }
 
+.fashunAppDetail{
+  width: 100%;
+  height: fit-content;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
 
+.fashunContainer{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height:fit-content;
+  margin: 0;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+#brandPoster{
+ width: 70vw;
+ height: 600px;
+ margin-top: 100px;
+ object-fit: contain;
+}
+
+#fashunAppDescription{
+  position: absolute;
+  font-size: 2.2vw;
+  margin-top: 350px;
+  width:500px;
+  margin-left: 50%;
+  color:rgb(255, 255, 255);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+
+.fashunAppNameFirstLetter{
+  margin: 0;
+  font-size: 10vw;
+  font-weight: bolder;
+  width: fit-content;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  position: absolute;
+  margin-left: 600px;
+  margin-top: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fashunAppName{
+  text-align: left;
+  font-size: 1.1vw;
+  margin-left: 680px;
+  margin-top: 17px;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fashun .playBtn{
+  position: absolute;
+  margin-left: 30%;
+  margin-top: 400px;
+}
 
 
 /* .title {
