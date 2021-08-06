@@ -24,7 +24,7 @@ const AppButtons = () => {
             </Link>
             <Link 
                 activeClass="active"
-                to="covid"
+                to="fashun"
                 spy="true"
                 smooth={true}
                 duration={1000}>
@@ -32,7 +32,7 @@ const AppButtons = () => {
             </Link>
             <Link 
                 activeClass="active"
-                to="fashun"
+                to="covid"
                 spy="true"
                 smooth={true}
                 duration={1000}>
@@ -50,6 +50,7 @@ const AppButtons = () => {
 
             </aside>
     )
+    
 }
 
 export default AppButtons
