@@ -67,7 +67,7 @@ const Portfolio = () => {
                     <div className="backgroundContainer">
                         <span className="backgroundCaptions">Netflastinate is a movie trailer  application <a href="https://netflastinate.herokuapp.com/" target="_blank">LiveWebpage
                         </a> where the user is able to browse movie trailers and save them in a watch-list.  Netflastinate is a movie trailer application where the user is able to browse movie  <a href="https://github.com/Chul0/Netflastinate-frontend" target="_blank">GitHub
-                        </a> save them in a watch-list. Netflastinate is a movie trailer application where the user is able to save </span>
+                        </a> save them in a watch-list. Netflastinate is a movie trailer application whe</span>
                         
                 {netflastinate ?
                     <div className="iframeContainer">
