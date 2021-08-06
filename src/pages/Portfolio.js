@@ -111,18 +111,20 @@ const Portfolio = () => {
       
             <div className="covid">
                  <div className="appContainer">
-                    <div className="appDetail">
+                    <div className="quickFix">
                         <p className="appName" style={{"color":"#1F6FEB"}}>Beat covid </p>
                         <div className="description">Beat COVID! The user kills the COVID-19 virus with a sanitizing click.
-                         <ul className="skillUsed">
-                            <li>HTML5</li>
-                            <li>CSS3</li>
-                            <li>JavaScript</li>
-                        </ul>
+                        
+                        </div>
+                        <div className="quickfix2">
+                            <a href="https://github.com/Chul0/beat-covid" target="_blank">Github
+                        </a>
+                            <a href="https://chul0.github.io/beat-covid/" target="_blank">Live Webpage
+                        </a>
                         </div>
                     </div>
                    
-                {covid ?
+                {/* {covid ?
                     <>
                         <iframe src="https://www.youtube.com/embed/7l0plZNASC4?autoplay=1&playlist=7l0plZNASC4&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" ></iframe>
                         <span className="Xbtn" onClick={showCovid}>X</span>
@@ -134,15 +136,9 @@ const Portfolio = () => {
                             <span className="watchBanner" onClick={showCovid}>WATCH DEMO</span>
                             </div> 
                         </>              
-                    }
+                    } */}
                     
-                    <p className="links">LINKS</p>
-                    <div className="sources">
-                        <a href="https://github.com/Chul0/beat-covid" target="_blank">Github
-                        </a>
-                        <a href="https://chul0.github.io/beat-covid/" target="_blank">Live Webpage
-                        </a>
-                    </div>
+                    
                 </div>
             </div>
          
@@ -153,19 +149,22 @@ const Portfolio = () => {
        
             <div className="calorie">
                  <div className="appContainer">
-                 <div className="appDetail">
+                 <div className="quickFix">
                         <p className="appName" style={{"color":"green"}}>Calorie Tracker</p>
                         <div className="description">Calorie tracker is a nutrition app that helps users keep track of their daily caloric intake.
-                         <ul className="skillUsed">
-                         <li>HTML5</li>
-                            <li>css3</li>
-                            <li>Node.js</li>
-                            <li>RESTful API</li>
-                        </ul>
+                        
                         </div>
+                            <div className="quickfix2">
+                                <a href="https://github.com/Chul0/Calorie-Tracker-FE" target="_blank">Frontend Github
+                                </a>
+                                <a href="https://github.com/Chul0/Calorie-Tracker-BE" target="_blank">Backend Github
+                                </a>
+                                <a href="https://chul-calorie-tracke-fe.herokuapp.com/" target="_blank">Live Webpage
+                                </a>
+                            </div>
                     </div>
                    
-                {calorie ?
+                {/* {calorie ?
                     <>
                         <iframe src="https://www.youtube.com/embed/QSRl5Km5r1o?autoplay=1&playlist=QSRl5Km5r1o&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" ></iframe>
                         <span className="Xbtn" onClick={showCalorie}>X</span>
@@ -178,17 +177,9 @@ const Portfolio = () => {
                         <span className="watchBanner" onClick={showCalorie}>WATCH DEMO</span>
                         </div> 
                     </>              
-                    }
+                    } */}
                     
-                    <p className="links">LINKS</p>
-                    <div className="sources">
-                    <a href="https://github.com/Chul0/Calorie-Tracker-FE" target="_blank">Frontend Github
-                        </a>
-                        <a href="https://github.com/Chul0/Calorie-Tracker-BE" target="_blank">Backend Github
-                        </a>
-                        <a href="https://chul-calorie-tracke-fe.herokuapp.com/" target="_blank">Live Webpage
-                        </a>
-                    </div>
+                    
                 </div>
             </div>
   
