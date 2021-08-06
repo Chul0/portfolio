@@ -3,7 +3,7 @@
   font-family:sans-serif;
   background-color: black;
   color: #FFF;
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: sans-serif;
 }
 
 
@@ -417,6 +417,7 @@ iframe{
   letter-spacing: -.00835em;
   text-align: justify;
   align-items: center;
+  font-family: sans-serif;
 }
 
 .backgroundCaptions a{
