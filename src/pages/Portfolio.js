@@ -36,6 +36,7 @@ const Portfolio = () => {
     const [grey, setGrey] = useState(false)
     const [greyoutFashun, setGreyoutFashun] = useState(false)
     const [greyoutCovid, setGreyoutCovid] = useState(false)
+    const [greyoutCalorie, setGreyoutCalorie] = useState(false)
 
     // Netflastinate page grey out 
     const scrollEvent = () =>{
@@ -65,6 +66,16 @@ const Portfolio = () => {
         }
     }
     window.addEventListener("scroll", scrollEvent3)
+
+    // Calorie page grey out
+    const scrollEvent4 = () =>{
+        if(window.scrollY <= 3700) {
+            setGreyoutCalorie(true)
+        }else{
+            setGreyoutCalorie(false)
+        }
+    }
+    window.addEventListener("scroll", scrollEvent4)
 
 
     return (
@@ -158,7 +169,7 @@ const Portfolio = () => {
 
         
             
-            <div className="calorie">
+            <div className="calorie" style={{opacity: greyoutCalorie && 0.1 }}>
                  <div className="calorieAppContainer">
                  <div className="appDetail">
                         <p className="appName" style={{"color":"green", "marginLeft":"2%"}}>C</p>
