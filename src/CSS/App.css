@@ -366,6 +366,98 @@ iframe{
   border-bottom: 1px solid white;
 }
 
+/* Calorie page */
+#notebook{
+  width: 30vw;
+}
+
+
+
+.calorieFirstname, .calorieLastname{
+  display: flex;
+}
+
+.calorieFirstname p, .calorieLastname p{
+  align-self: flex-end;
+}
+
+.calorieDescription{
+  font-size: 2vw;
+}
+
+.calorieAppContainer{
+   display: flex;
+   flex-direction: column;
+   width: 100vw;
+   height:fit-content;
+   text-align: center;
+   justify-content: center;
+}
+
+.calorieAppDetail{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+}
+
+.calorieDescription{
+  font-size: 2vw;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10%;
+}
+
+.calorieLinks{
+  display: flex;
+  margin-top: 100px;
+}
+
+.calorieLinks a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+  padding-right: 10px;
+}
+
+.calorieLinks a:hover{
+  text-decoration: underline;
+}
+
+.calroiePlayer{
+  width: fit-content;
+  height: fit-content;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.caloriePlayBtn{
+  background: black;
+  border-radius: 50%;
+  border: none;
+  height: 100px;
+  position: absolute;
+  width: 100px;
+  color: white;
+  font-size: 30px;
+  margin:auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 1);
+  cursor: pointer;
+}
+
+.calorieiframeContainer {
+  width: 100%;
+  height: fit-content;
+  position: absolute;
+  background-color: rgba(1, 1, 1, 0.914);
+  width:100vw;
+  padding: 100vh 0;
+}
+
 .title img{
   margin: 20px 50vw 0 0;
   width:380px;
