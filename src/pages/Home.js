@@ -31,7 +31,7 @@ const Home = () => {
                       smooth={true}
                       duration={1000}  
                 >SP</Link>
-                <span style={{"margin-right": "5%", "color":"red"}}>Website is currently being updated</span>
+                {/* <span style={{"margin-right": "5%", "color":"red"}}>Website is currently being updated</span> */}
             </div>
         </nav>
         
