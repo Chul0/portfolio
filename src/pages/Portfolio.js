@@ -9,6 +9,7 @@ import calorieThumbnail from '../Thumbnails/calorieThumbnail.png'
 import calorieThumbnail2 from '../Thumbnails/calorieThumbnail2.png'
 import netLogo from '../images/netflastinate.png'
 import brandPoster from '../images/sunnei.png'
+import gameMachine from '../images/Game-machine.png'
 
 
 const Portfolio = () => {
@@ -32,7 +33,9 @@ const Portfolio = () => {
 
     const [grey, setGrey] = useState(false)
     const [greyoutFashun, setGreyoutFashun] = useState(false)
+    const [greyoutCovid, setGreyoutCovid] = useState(false)
 
+    // Netflastinate page grey out 
     const scrollEvent = () =>{
         if(window.scrollY <= 900) {
             setGrey(true);
@@ -41,15 +44,25 @@ const Portfolio = () => {
         }
     }
     window.addEventListener("scroll", scrollEvent)
-
+    // Fashun page grey out
     const scrollEvent2 = () =>{
-        if(window.scrollY <= 2000) {
+        if(window.scrollY <= 2100) {
             setGreyoutFashun(true);
         }else{
             setGreyoutFashun(false);
         }
     }
     window.addEventListener("scroll", scrollEvent2)
+
+    // Covid page grey out
+    const scrollEvent3 = () =>{
+        if(window.scrollY <= 3000) {
+            setGreyoutCovid(true)
+        }else{
+            setGreyoutCovid(false)
+        }
+    }
+    window.addEventListener("scroll", scrollEvent3)
 
 
     return (
@@ -109,45 +122,42 @@ const Portfolio = () => {
                 </div>  
             </div>
       
-            <div className="covid">
+            <div className="covid" style={{opacity:greyoutCovid && 0.1}}>
                  <div className="appContainer">
-                    <div className="quickFix">
-                        <p className="appName" style={{"color":"#1F6FEB"}}>Beat covid </p>
-                        <div className="description">Beat COVID! The user kills the COVID-19 virus with a sanitizing click.
-                        
-                        </div>
-                        <div className="quickfix2">
-                            <a href="https://github.com/Chul0/beat-covid" target="_blank">Github
-                        </a>
-                            <a href="https://chul0.github.io/beat-covid/" target="_blank">Live Webpage
-                        </a>
-                        </div>
+                    <div className="appDetail">
+                        <p className="appName" style={{"color":"#1F6FEB", "marginLeft":"2%"}}>b</p>
+                        <p className="appName" style={{"color":"#1F6FEB", "fontSize":"4vw", "paddingTop":"1.5%"}}>eat covid</p>
                     </div>
-                   
-                {/* {covid ?
-                    <>
-                        <iframe src="https://www.youtube.com/embed/7l0plZNASC4?autoplay=1&playlist=7l0plZNASC4&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" ></iframe>
-                        <span className="Xbtn" onClick={showCovid}>X</span>
-                        
-                    </>
-                        :
-                        <>
-                            <div className="player2" onClick={showCovid}><button className="playBtn">►</button>
-                            <span className="watchBanner" onClick={showCovid}>WATCH DEMO</span>
-                            </div> 
-                        </>              
-                    } */}
-                    
-                    
+                    <div className="appNameDetail">
+                        <span> The user kills the COVID-19
+                                virus with a sanitizing click.</span>
+                    </div>
+
+                    <div className="parentContainer">
+                        <div className="gameContainer">
+                            <img id="giphy" src="https://media.giphy.com/media/Wy4p6wQSn89BxMknwn/giphy.gif"></img>
+                            <img id="gameMachine" src={gameMachine}></img>
+                        </div>
+
+                        <div className="appDetailWrap">
+                            
+                            
+                            <div className="covidLinkContainer">
+                                <a href="https://chul0.github.io/beat-covid/" target="_blank">Play Game
+                                </a>
+                                <a href="https://github.com/Chul0/beat-covid" target="_blank">Github
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
          
 
         
-               
-
-       
-            <div className="calorie">
+            
+            {/* <div className="calorie">
                  <div className="appContainer">
                  <div className="quickFix">
                         <p className="appName" style={{"color":"green"}}>Calorie Tracker</p>
@@ -162,7 +172,7 @@ const Portfolio = () => {
                                 <a href="https://chul-calorie-tracke-fe.herokuapp.com/" target="_blank">Live Webpage
                                 </a>
                             </div>
-                    </div>
+                    </div> */}
                    
                 {/* {calorie ?
                     <>
@@ -180,8 +190,8 @@ const Portfolio = () => {
                     } */}
                     
                     
-                </div>
-            </div>
+                {/* </div> */}
+            {/* </div> */}
   
         </>
     )
