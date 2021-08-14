@@ -10,6 +10,8 @@ import calorieThumbnail2 from '../Thumbnails/calorieThumbnail2.png'
 import netLogo from '../images/netflastinate.png'
 import brandPoster from '../images/sunnei.png'
 import gameMachine from '../images/Game-machine.png'
+import greenNotebook from '../images/greenNote.png'
+import rippedNote from '../images/rippedNote.png'
 
 
 const Portfolio = () => {
@@ -112,7 +114,6 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-
                 {fashun &&
                     <div className="iframeContainer">
                         <iframe src="https://www.youtube.com/embed/aTrz__8UJ5I?autoplay=1&playlist=aTrz__8UJ5I&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" ></iframe>
@@ -157,41 +158,42 @@ const Portfolio = () => {
 
         
             
-            {/* <div className="calorie">
-                 <div className="appContainer">
-                 <div className="quickFix">
-                        <p className="appName" style={{"color":"green"}}>Calorie Tracker</p>
-                        <div className="description">Calorie tracker is a nutrition app that helps users keep track of their daily caloric intake.
-                        
+            <div className="calorie">
+                 <div className="calorieAppContainer">
+                 <div className="appDetail">
+                        <p className="appName" style={{"color":"green", "marginLeft":"2%"}}>C</p>
+                        <p className="appName" style={{"color":"green", "fontSize":"3.8vw", "paddingTop":"1.5%"}}>alorie tracker</p>
+                    </div>
+                        {/* <img id="greenNotebookCover" src={greenNotebook}></img> */}
+
+                    <div className="calorieAppDetail">
+                        <div className="calroiePlayer">
+                            <img id="notebook" src={rippedNote}></img>
+                            <button className="caloriePlayBtn" onClick={showCalorie}>►</button>
                         </div>
-                            <div className="quickfix2">
+                        <div className="calorieDescription">
+                            <p>
+                            Calorie tracker is a nutrition app <br></br>that helps users keep track of <br></br>their daily caloric intake.
+                            </p>
+                            <div className="calorieLinks">
                                 <a href="https://github.com/Chul0/Calorie-Tracker-FE" target="_blank">Frontend Github
                                 </a>
                                 <a href="https://github.com/Chul0/Calorie-Tracker-BE" target="_blank">Backend Github
                                 </a>
                                 <a href="https://chul-calorie-tracke-fe.herokuapp.com/" target="_blank">Live Webpage
-                                </a>
+                                </a> 
                             </div>
-                    </div> */}
-                   
-                {/* {calorie ?
-                    <>
+                        </div>
+                    </div>
+                        
+                {calorie &&
+                <div className="calorieiframeContainer">
                         <iframe src="https://www.youtube.com/embed/QSRl5Km5r1o?autoplay=1&playlist=QSRl5Km5r1o&loop=1" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allow="fullscreen" ></iframe>
                         <span className="Xbtn" onClick={showCalorie}>X</span>
-                        
-                    </>
-                        :
-                    <>
-                        <div className="player4" onClick={showCalorie}><button className="playBtn">►</button>
-
-                        <span className="watchBanner" onClick={showCalorie}>WATCH DEMO</span>
-                        </div> 
-                    </>              
-                    } */}
-                    
-                    
-                {/* </div> */}
-            {/* </div> */}
+                   </div>          
+                }  
+                </div>
+            </div>
   
         </>
     )
