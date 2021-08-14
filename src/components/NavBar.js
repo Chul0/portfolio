@@ -15,8 +15,7 @@ const NavBar = (props) => {
                       spy="true"
                       smooth={true}
                       duration={1000}  
-                ><h1>SddP</h1></Link>
-                <p>hello</p>
+                ></Link>
             </div>
 
         </nav>
